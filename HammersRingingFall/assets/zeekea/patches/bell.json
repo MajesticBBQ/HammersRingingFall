@@ -1,0 +1,18 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "BNB,_D_,_R_",
+    "file": "zeekea:recipes/grid/bell.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:nail-*",
+      "quantity": 2
+    },
+    "file": "zeekea:recipes/grid/bell.json"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "PHP,PNP,PHP",
+    "file": "zeekea:recipes/grid/cabinet_doors.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:nail-*",
+      "quantity": 2
+    },
+    "file": "zeekea:recipes/grid/cabinet_doors.json"
+  },
+  {
+	"op": "add",
+	"path": "/ingredients/H",
+	"value": {
+		"type": "item",
+		"code": "hammersringingfall:hinge-*",
+	},
+	"file": "zeekea:recipes/grid/cabinet_doors.json"
+  }
+]

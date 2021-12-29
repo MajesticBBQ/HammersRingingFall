@@ -1,0 +1,42 @@
+{
+	"code": "pin",
+	"maxstacksize": 64,
+  "dimensions": { "width": 0.0625, "height": 0.0625, "length": 0.0625 },
+  "attributes": {
+	 "displaycaseable": true,
+	 "shelvable": true
+	},
+  "variantgroups": [
+  	{ "code": "metal", "states": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"]}
+	],
+	"storageflags": 5,
+	"shape":{ "base": "hammersringingfall:item/pin" },	
+	"textures": {
+		"ore": { "base": "game:block/metal/ingot/{metal}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+		"guiTransform": {
+		"translation": {"x": 0, "y":0, "z": 0 },
+		"rotation": {"x": 146, "y":55, "z": -21 },
+		"origin": {"x": 0.5, "y":0.07, "z": 0.5 },
+		"scale": 3.68
+	},
+		"fpHandTransform": {
+		"translation": {"x": 0, "y":0.2, "z": 0 },
+		"rotation": {"x": -2, "y":103, "z": 44 },
+		"origin": {"x": 0.73, "y":0.1, "z": 0.5 },
+		"scale": 1.1
+	},
+		"groundTransform": {
+		"translation": {"x": 0, "y":0, "z": 0 },
+		"rotation": {"x": -17, "y":-89, "z": 4 },
+		"origin": {"x": 0.5, "y":0, "z": 0.5 },
+		"scale": 1.99
+	},
+		"tpHandTransform": {
+		"translation": {"x": -0.8, "y":-0.01, "z": -0.81 },
+		"rotation": {"x": -18, "y":6, "z": 18 },
+		"origin": {"x": 0.31, "y":0.03, "z": 0.4 },
+		"scale": 0.38
+	}
+}

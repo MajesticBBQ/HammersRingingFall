@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "hammersringingfall",
+  "name": "Hammers Ringing Fall",
+  "author": [ "Vinter Nacht","Percival", "Raccoon"],
+  "description": "Smithing, Forging, and Metal Mod",
+  "version": "0.1.0-dev.2",
+  "dependency": {
+    "game": ""
+  }
+}

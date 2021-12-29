@@ -1,0 +1,18 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "_W_,PWP,PNP",
+    "file": "zeekea:recipes/grid/fancychair2.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:nail-*",
+      "quantity": 2
+    },
+    "file": "zeekea:recipes/grid/fancychair2.json"
+  }
+]

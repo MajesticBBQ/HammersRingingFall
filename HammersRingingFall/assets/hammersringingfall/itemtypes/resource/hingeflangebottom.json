@@ -1,0 +1,42 @@
+{
+	 "code": "hingeflangebottom",
+	"maxstacksize": 64,
+	"dimensions": { "width": 0.0625, "height": 0.0625, "length": 0.0625 },
+	"attributes": {
+		 "displaycaseable": true,
+		"shelvable": true
+	},
+	"variantgroups": [
+		{ "code": "metal", "states": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"]}
+	],
+	"storageflags": 5,
+	"shape":{ "base": "hammersringingfall:item/hingeflangebottom" },	
+	"textures": {
+		"ore": { "base": "game:block/metal/ingot/{metal}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+		"guiTransform": {
+		"translation": {"x": 0, "y":0, "z": 0 },
+		"rotation": {"x": 70, "y":30, "z": 22 },
+		"origin": {"x": 0.51, "y":0.07, "z": 0.58 },
+		"scale": 3.03
+	},
+		"fpHandTransform": {
+		"translation": {"x": 0, "y":0.2, "z": 0 },
+		"rotation": {"x": 21, "y":171, "z": -24 },
+		"origin": {"x": 0.56, "y":0.16, "z": 0.61 },
+		"scale": 1.51
+	},
+		"tpHandTransform": {
+		"translation": {"x": -0.8, "y":-0.1, "z": -0.4 },
+		"rotation": {"x": 5, "y":82, "z": 16 },
+		"origin": {"x": 0.5, "y":0, "z": 0.25 },
+		"scale": 0.56
+	},
+		"groundTransform": {
+		"translation": {"x": 0, "y":0, "z": 0 },
+		"rotation": {"x": 0, "y":0, "z": 0 },
+		"origin": {"x": 0.5, "y":0, "z": 0.5 },
+		"scale": 3.4
+	}
+}

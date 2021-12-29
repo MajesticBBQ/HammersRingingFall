@@ -1,0 +1,18 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "NIN,ICI,CIC",
+    "file": "zeekea:recipes/grid/winerack-acacia.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:nail-*",
+      "quantity": 2
+    },
+    "file": "zeekea:recipes/grid/winerack-acacia.json"
+  }
+]

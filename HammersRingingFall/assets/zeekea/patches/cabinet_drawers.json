@@ -1,0 +1,18 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "PPP,N_N,PPP",
+    "file": "zeekea:recipes/grid/cabinet_drawers.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:nail-*",
+      "quantity": 1
+    },
+    "file": "zeekea:recipes/grid/cabinet_drawers.json"
+  }
+]

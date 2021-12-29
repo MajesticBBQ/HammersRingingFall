@@ -1,0 +1,45 @@
+{
+	 "code": "metalband",
+	"maxstacksize": 64,
+	"dimensions": { "width": 0.0625, "height": 0.0625, "length": 0.0625 },
+	"attributes": {
+		"handbook": {
+			"groupBy": ["metalband-*"]
+		},
+		 "displaycaseable": true,
+		"shelvable": true
+	},
+	"variantgroups": [
+		{ "code": "metal", "states": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"]}
+	],
+	"storageflags": 5,
+	"shape": { "base": "hammersringingfall:item/metalband" },
+	"textures": {
+		"ore": { "base": "game:block/metal/ingot/{metal}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	  guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 116, y: 128, z: -15 },
+		origin: { x: 0.55, y: 0.075, z: 0.375 },
+		scale: 2.05
+	},
+		fpHandTransform: {
+		translation: { x: 0, y: 0.1, z: 0 },
+		rotation: { x: 0, y: 24, z: 20 },
+		origin: { x: 0.6212, y: -1.2, z: -0.6 },
+		scale: 2.68
+	},
+	"groundTransform": {
+		"translation": {"x": 0, "y":0, "z": 0 },
+		"rotation": {"x": 0, "y":0, "z": 0 },
+		"origin": {"x": 0.5, "y":0, "z": 0.5 },
+		"scale": 3.4
+	},
+		tpHandTransform: {
+		translation: { x: 0.325, y: -0.15, z: -0.4 },
+		rotation: { x: 5, y: 82, z: 16 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 0.7
+	}
+}

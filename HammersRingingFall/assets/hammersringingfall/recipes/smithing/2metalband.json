@@ -1,0 +1,12 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal",
+	"allowedVariants": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"] },
+	"name": "2 Bands",
+	"pattern": [[
+		"#########",
+		"_________",
+		"#########",
+		"_________",
+		]],
+	"output": { "type": "item", "code": "hammersringingfall:metalband-{metal}", "stacksize": 2 }	
+}

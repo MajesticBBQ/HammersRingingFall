@@ -1,0 +1,18 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "BNB,BCB,BNB",
+    "file": "zeekea:recipes/grid/tall_locker.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": {
+      "type": "item",
+      "code": "hammersringingfall:nail-*",
+      "quantity": 2
+    },
+    "file": "zeekea:recipes/grid/tall_locker.json"
+  }
+]

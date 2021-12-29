@@ -1,0 +1,15 @@
+0.1.0-dev.1
+	- Added recipes for hingepart-top, hingepart-bottom, hingepart-pin
+	- Added itemtype files for hingepart-top, hingepart-bottom, hingepart-pin
+
+0.1.0-dev.2
+	- Added itemtype for metal bands and rivets
+	- Added shapes for metal bands and rivets
+	- Added 9 rivet recipe
+	- Added 13 rivet recipe
+	- Added 4 metal band recipe
+	- Added 2 metal band recipe
+	- Flipped hinge bottom and top shapes.
+
+0.1.0-dev.3
+	- Added Zeekea Recipes

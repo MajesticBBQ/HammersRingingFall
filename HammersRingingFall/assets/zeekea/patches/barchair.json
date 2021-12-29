@@ -1,0 +1,25 @@
+[
+    {    "op":    "replace",
+        "path":    "/ingredientPattern",
+        "value":    "_W_,NPN,_L_",
+        "file":    "zeekea:recipes/grid/barchair.json",
+        "dependsOn":    [ { "modid": "zeekea" }],
+    },
+    {    
+        "op":    "add",
+        "path":    "/ingredients/N",
+        "value":    {
+            "type":    "item",
+            "code":    "hammersringingfall:nail-copper"
+        },
+        "file":    "zeekea:recipes/grid/barchair.json",
+        "dependsOn":    [ { "modid": "zeekea" }]
+    },
+    {
+        "op":    "replace",
+        "path":    "/width",
+        "value":    "3",
+        "file":    "zeekea:recipes/grid/barchair.json",
+        "dependsOn":    [ { "modid": "zeekea" }]
+    }
+]

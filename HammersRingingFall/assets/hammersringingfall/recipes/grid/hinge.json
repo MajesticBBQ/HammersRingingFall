@@ -1,0 +1,109 @@
+[
+  {
+  "ingredientPattern":  "T,P,B",
+  "ingredients": {
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-copper"},
+    "P": {"type": "item", "code": "hammersringingfall:pin-copper"},
+    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-copper"}
+    
+    },
+  "width": 1,
+  "height": 3,
+  "output": {"type": "item", "code": "hammersringingfall:hinge-copper"}
+  },
+  {
+  "ingredientPattern":  "T,P,B",
+  "ingredients": {
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-brass"},
+    "P": {"type": "item", "code": "hammersringingfall:pin-brass"},
+    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-brass"}
+    
+  },
+  "width": 1,
+  "height": 3,
+  "output": {"type": "item", "code": "hammersringingfall:hinge-brass"}
+  },
+  {
+  "ingredientPattern":  "T,P,B",
+  "ingredients": {
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-tinbronze"},
+    "P": {"type": "item", "code": "hammersringingfall:pin-tinbronze"},
+    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-tinbronze"}
+    
+  },
+  "width": 1,
+  "height": 3,
+  "output": {"type": "item", "code": "hammersringingfall:hinge-tinbronze"}
+  },
+  {
+  "ingredientPattern":  "T,P,B",
+  "ingredients": {
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-bismuthbronze"},
+    "P": {"type": "item", "code": "hammersringingfall:pin-bismuthbronze"},
+    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-bismuthbronze"}
+    
+  },
+  "width": 1,
+  "height": 3,
+  "output": {"type": "item", "code": "hammersringingfall:hinge-bismuthbronze"}
+  },
+  {
+  "ingredientPattern":  "T,P,B",
+  "ingredients": {
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-blackbronze"},
+    "P": {"type": "item", "code": "hammersringingfall:pin-blackbronze"},
+    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-blackbronze"}
+    
+  },
+  "width": 1,
+  "height": 3,
+  "output": {"type": "item", "code": "hammersringingfall:hinge-blackbronze"}
+  },
+  {
+  "ingredientPattern":  "T,P,B",
+  "ingredients": {
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-iron"},
+    "P": {"type": "item", "code": "hammersringingfall:pin-iron"},
+    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-iron"}
+    
+  },
+  "width": 1,
+  "height": 3,
+  "output": {"type": "item", "code": "hammersringingfall:hinge-iron"}
+  },
+  {
+  "ingredientPattern":  "T,P,B",
+  "ingredients": {
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-titanium"},
+    "P": {"type": "item", "code": "hammersringingfall:pin-titanium"},
+    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-titanium"}
+    
+  },
+  "width": 1,
+  "height": 3,
+  "output": {"type": "item", "code": "hammersringingfall:hinge-titanium"}
+  },
+  {
+  "ingredientPattern":  "T,P,B",
+  "ingredients": {
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-meteoriciron"},
+    "P": {"type": "item", "code": "hammersringingfall:pin-meteoriciron"},
+    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-meteoriciron"}
+    
+  },
+  "width": 1,
+  "height": 3,
+  "output": {"type": "item", "code": "hammersringingfall:hinge-meteoriciron"}
+  },
+  {
+  "ingredientPattern":  "T,P,B",
+  "ingredients": {
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-steel"},
+    "P": {"type": "item", "code": "hammersringingfall:pin-steel"},
+    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-steel"}
+    
+  },
+  "width": 1,
+  "height": 3,
+  "output": {"type": "item", "code": "hammersringingfall:hinge-steel"}
+  }
