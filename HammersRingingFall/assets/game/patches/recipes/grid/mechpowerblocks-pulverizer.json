@@ -1,0 +1,38 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "BPB,PSP,BRB",
+    "file": "recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/B",
+    "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+    "file": "recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/P",
+    "value": { "type": "item", "code": "plank-*","quantity": 10},
+    "file": "recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredientPattern",
+    "value": "HPR,CA_",
+    "file": "recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*", "quantity" : 4},
+    "file": "recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/width",
+    "value": 3,
+    "file": "recipes/grid/mechpowerblocks-pulverizer.json"
+  }
+]

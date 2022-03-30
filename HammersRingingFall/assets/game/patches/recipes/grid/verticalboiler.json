@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "ST,IU,RU",
+    "file": "recipes/grid/verticalboiler.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 8},
+    "file": "recipes/grid/verticalboiler.json"
+  }
+]

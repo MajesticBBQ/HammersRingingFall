@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HammersRingingFall", "HammersRingingFall\HammersRingingFall.csproj", "{4D3B651A-87E6-4824-AFA3-4C04475049E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{112B42D3-2611-4E0A-BCE8-DAB14FE6FA53}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D3B651A-87E6-4824-AFA3-4C04475049E3} = {4D3B651A-87E6-4824-AFA3-4C04475049E3}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,184 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/2/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/2/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/3/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/3/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/4/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/4/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/5/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/5/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/6/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/6/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/7/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/7/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/8/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/8/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/9/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/9/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/10/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/10/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/11/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/11/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/12/ingredientPattern",
+    "value": "NHN,PAP",
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/12/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/langstrothsuper.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  }
+]

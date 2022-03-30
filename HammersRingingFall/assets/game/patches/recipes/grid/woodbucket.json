@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "_F_,WBW,WWW",
+    "file": "recipes/grid/woodbucket.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+    "file": "recipes/grid/woodbucket.json"
+  }
+]

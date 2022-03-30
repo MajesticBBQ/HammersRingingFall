@@ -11,5 +11,11 @@
 	- Added 2 metal band recipe
 	- Flipped hinge bottom and top shapes.
 
-0.1.0-dev.3
-	- Added Zeekea Recipes
+1.0.0-rc.1
+	- Completed adapting vanilla recipes
+	- Adjusted hinge recipes to 5/3 instead of 4/2
+	- Introduced tool haft to replace sticks in metal tools
+
+1.1.0-rc.1
+	- Added compatibility with From Golden Combs
+	- Corrected recipes for stone tools to not require hafts

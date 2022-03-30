@@ -1,0 +1,206 @@
+[
+  //{
+  //  "op": "replace",
+  //  "path": "/0/ingredientPattern",
+  //  "value": "BHR,BCR,RSF",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/0/ingredients/R",
+  //  "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/0/ingredients/B",
+  //  "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/1/ingredientPattern",
+  //  "value": "HB,CR,SF",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/1/ingredients/R",
+  //  "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/1/ingredients/B",
+  //  "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/2/ingredientPattern",
+  //  "value": "HN,CN,SF",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/2/ingredients/R",
+  //  "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/2/ingredients/B",
+  //  "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/3/ingredientPattern",
+  //  "value": "_NS,NSL,SL_",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/3/ingredients/N",
+  //  "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/3/ingredients/B",
+  //  "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/4/ingredientPattern",
+  //  "value": "HN_,CBN,SFR",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/4/ingredients/N",
+  //  "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  {
+    "op": "add",
+    "path": "/5/ingredients/B",
+    "value": { "type": "item", "code": "hammersringingfall:metalband-*","quantity": 2},
+    "file": "recipes/grid/mechpowerblocks.json"
+  },
+  {
+    "op": "replace",
+    "path": "/5/ingredientPattern",
+    "value": "HBP,CPX,PR_",
+    "file": "recipes/grid/mechpowerblocks.json"
+  },
+  {
+    "op": "add",
+    "path": "/5/ingredients/B",
+    "value": { "type": "item", "code": "hammersringingfall:metalband-*","quantity": 2},
+    "file": "recipes/grid/mechpowerblocks.json"
+  },
+  {
+    "op": "add",
+    "path": "/5/ingredients/X",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 4},
+    "file": "recipes/grid/mechpowerblocks.json"
+  },
+  //{
+  //  "op": "replace",
+  //  "path": "/6/ingredientPattern",
+  //  "value": "HCR,PAP,NFN",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/6/ingredients/N",
+  //  "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/7/ingredientPattern",
+  //  "value": "SPS,PAP,SPS",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/7/ingredients/P",
+  //  "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/7/ingredients/P/quantity",
+  //  "value": 12,
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/8/ingredientPattern",
+  //  "value": "HCX,NRS,AAA",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/8/ingredients/B",
+  //  "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 6},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/8/ingredients/A/quantity",
+  //  "value": 2,
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/9/ingredientPattern",
+  //  "value": "HCX,PAS,RFB",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/9/ingredients/B",
+  //  "value": { "type": "item", "code": "hammersringingfall:metalband-*","quantity": 2},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "replace",
+  //  "path": "/10/ingredientPattern",
+  //  "value": "HCX,GPG,RFB",
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  //{
+  //  "op": "add",
+  //  "path": "/10/ingredients/B",
+  //  "value": { "type": "item", "code": "hammersringingfall:metalband-*","quantity": 2},
+  //  "file": "recipes/grid/mechpowerblocks.json"
+  //},
+  {
+    "op": "replace",
+    "path": "/11/ingredientPattern",
+    "value": "HS,XR,CR",
+    "file": "recipes/grid/mechpowerblocks.json"
+  },
+  {
+    "op": "add",
+    "path": "/11/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 4},
+    "file": "recipes/grid/mechpowerblocks.json"
+  },
+  {
+    "op": "replace",
+    "path": "/12/ingredientPattern",
+    "value": "HR,XR,CS",
+    "file": "recipes/grid/mechpowerblocks.json"
+  },
+  {
+    "op": "add",
+    "path": "/12/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 4},
+    "file": "recipes/grid/mechpowerblocks.json"
+  }
+]

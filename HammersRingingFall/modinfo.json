@@ -3,8 +3,8 @@
   "modid": "hammersringingfall",
   "name": "Hammers Ringing Fall",
   "author": [ "Vinter Nacht","Percival", "Raccoon"],
-  "description": "Smithing, Forging, and Metal Mod",
-  "version": "0.1.0-dev.2",
+  "description": "With measured beat and slow, Like a sexton ringing the village bell - Henry Wadsworh Longfellow",
+  "version": "1.1.0-rc.1",
   "dependency": {
     "game": ""
   }

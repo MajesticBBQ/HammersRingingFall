@@ -1,0 +1,14 @@
+[
+	{
+	"ingredientPattern": "TB,SR",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:spear-*", "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"]},
+				"S": { "type": "item", "code": "hammersringingfall:toolhaft-long-finished" },
+				"B": { "type": "item", "code": "hammersringingfall:metalband-*"},
+				"R": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2}
+			},
+			"width": 2,
+			"height": 2,
+			"output": { "type": "item", "code": "game:spear-{material}", "quantity": 1  }
+	}
+]

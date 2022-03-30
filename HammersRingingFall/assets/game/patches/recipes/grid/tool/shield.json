@@ -1,0 +1,51 @@
+[
+  {
+    "op": "replace",
+    "path": "/1/ingredientPattern",
+    "value": "RBR,BPB,RBR",
+    "file": "recipes/grid/tool/shield.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*"},
+    "file": "recipes/grid/tool/shield.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/ingredientPattern",
+    "value": "RLR,LSL,RLR",
+    "file": "recipes/grid/tool/shield.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*"},
+    "file": "recipes/grid/tool/shield.json"
+  },
+  {
+    "op": "replace",
+    "path": "/3/ingredientPattern",
+    "value": "NBN,OSO,NBN",
+    "file": "recipes/grid/tool/shield.json"
+  },
+  {
+    "op": "add",
+    "path": "/3/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "recipes/grid/tool/shield.json"
+  },
+  {
+    "op": "replace",
+    "path": "/4/ingredientPattern",
+    "value": "NHN,PSP,NCN",
+    "file": "recipes/grid/tool/shield.json"
+  },
+  {
+    "op": "add",
+    "path": "/4/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "recipes/grid/tool/shield.json"
+  }
+
+]
