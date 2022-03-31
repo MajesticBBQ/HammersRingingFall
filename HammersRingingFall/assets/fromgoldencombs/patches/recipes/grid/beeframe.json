@@ -3,7 +3,7 @@
     "op": "replace",
     "path": "/0/ingredientPattern",
     "value": "NBN,_R_,_S_",
-    "file": "fromgoldencombs:recipes/grid/beeframe.json",
+    "file": "fromgoldencombs:recipes/grid/parts/beeframe.json",
     "dependsOn": [ {"modid": "fromgoldencombs"}]
   },
   {
@@ -22,7 +22,7 @@
   },
   {
     "op": "replace",
-    "path": "/0/length",
+    "path": "/0/height",
     "value": 3,
     "file": "fromgoldencombs:recipes/grid/parts/beeframe.json",
     "dependsOn": [ {"modid": "fromgoldencombs"}]

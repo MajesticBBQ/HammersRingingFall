@@ -1,0 +1,13 @@
+//Courtesy of OpPointBaker
+{
+	ingredient: { type: "item", code: "ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+      "##########____",
+      "______########",
+      "###________###",
+      "########______",
+      "____##########"
+    ]],
+	name: "Scythe",
+	output: { type: "item", code: "scythehead-{metal}", stacksize: 2 }
+}
