@@ -1,0 +1,17 @@
+//Courtesy of OpPointBaker
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"_#####_",
+		"####__#",
+		"####__#",
+		"_#####_",
+		"_______",
+		"_#####_",
+		"####__#",
+		"####__#",
+		"_#####_"
+	]],
+	name: "Padlock",
+	output: { type: "item", code: "game:padlock-{metal}", stacksize: 2 }
+}

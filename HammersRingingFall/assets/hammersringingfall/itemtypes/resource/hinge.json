@@ -32,7 +32,7 @@
 		rotation: { x: -70, y: 80, z: -180 },
 		origin: { x: 0.4, y: 0, z: 0.15 },
 		scale: 0.34
-	}
+	},
 		groundTransform: {
 		translation: { x: 0, y: 0, z: 0 },
 		rotation: { x: 0, y: 88, z: 2 },

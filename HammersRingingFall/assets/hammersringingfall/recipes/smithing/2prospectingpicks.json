@@ -1,0 +1,15 @@
+//Courtesy of OpPointBaker
+
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"_____####",
+		"__#######",
+		"#####____",
+		"_____####",
+		"__#######",
+		"#####____",
+	]],
+	name: "Prospecting pickaxe",
+	output: { type: "item", code: "game:prospectingpickhead-{metal}", stacksize: 2 }
+}
