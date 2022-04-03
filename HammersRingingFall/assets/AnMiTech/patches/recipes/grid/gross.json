@@ -1,0 +1,19 @@
+[
+  {
+    "op": "replace",
+    "path": "/",
+    "value": {
+    "ingredientPattern": "_B_,RHM",
+    "ingredients": { 
+        "L": { "type": "item", "code": "tonwexp:grossblade-*"},
+        "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium"},     
+        "R": {"type": "item", "code": "hammersringingfall:rivet-*"},
+        "M": {"type": "item", "code": "hammersringingfall:metalband-*"}
+        },
+    "width": 3,
+    "height": 2,
+    "output": {"type": "item", "code": "tonwexp:katzbalger-{steel}"}
+    },
+    "file": "anmitech:recipes/grid/gross.json"
+  }
+]

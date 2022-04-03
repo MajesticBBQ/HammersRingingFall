@@ -1,0 +1,20 @@
+[
+  {
+     "op": "replace",
+     "path": "/ingredientPattern",
+     "value": "_B_,MHR",
+     "file": "anmitech:recipes/grid/axe.json"
+  },
+  {
+      "op": "add",
+      "path": "/ingredients/M",
+      "value": {"type": "item", "code": "hammersringingfall:metalband-*"},
+      "file": "anmitech:recipes/grid/axe.json"
+  },
+  {
+      "op": "add",
+      "path": "/ingredients/R",
+      "value": {"type": "item", "code": "hammersringingfall:rivet-*"},
+      "file": "anmitech:recipes/grid/axe.json"
+  }
+]

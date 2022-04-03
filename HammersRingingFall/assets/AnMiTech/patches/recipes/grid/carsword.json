@@ -1,0 +1,65 @@
+[
+ {
+   "op": "replace",
+   "path": "/0",
+   "value":{
+      "ingredientPattern": "_T_,MGB,_L_",
+      "ingredients": {
+      "T": {"type": "item", "code": "tonwexp:carswordblade-steelu"},
+      "G": {"type": "item", "code": "hammersringingfall:toolhaft-small"},
+      "M": {"type": "item", "code": "game:resin"},
+      "O": {"type": "item", "code": "game:leather-plain"}
+      },
+  "width": 3,
+  "height": 3,
+  "shapeless": false,
+  "output": {
+      "type": "item",
+      "code": "tonwexp:carsword-steel"
+    }
+  },
+  "file": "anmitech:recipes/grid/carsword.json"
+  },
+  {
+   "op": "replace",
+   "path": "/2",
+   "value":{
+      "ingredientPattern": "_T_,MGB,_L_",
+      "ingredients": {
+      "T": {"type": "item", "code": "tonwexp:carswordblade-iron"},
+      "G": {"type": "item", "code": "game:stick"},
+      "M": {"type": "item", "code": "game:resin"},
+      "O": {"type": "item", "code": "game:leather-plain"}
+      },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+    "type": "item",
+    "code": "tonwexp:carsword-iron"
+    },
+    "file": "anmitech:recipes/grid/carsword.json"
+  }
+ },
+  {
+   "op": "replace",
+   "path": "/3",
+   "value":{
+      "ingredientPattern": "_T_,MGB,_L_",
+      "ingredients": {
+      "T": {"type": "item", "code": "tonwexp:carswordblade-meteoriciron"},
+      "G": {"type": "item", "code": "game:stick"},
+      "M": {"type": "item", "code": "game:resin"},
+      "O": {"type": "item", "code": "game:leather-plain"}
+      },
+    "width": 2,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+    "type": "item",
+    "code": "tonwexp:carsword-meteoriciron"
+    }
+  },
+  "file": "anmitech:recipes/grid/carsword.json"
+ }
+]

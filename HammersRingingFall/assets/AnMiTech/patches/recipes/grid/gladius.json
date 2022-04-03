@@ -1,0 +1,87 @@
+[
+  {
+    "op": "replace",
+    "path": "/0",
+    "value": {
+    "ingredientPattern": "_C_,RLM",
+    "ingredients": { 
+        "C": { "type": "item", "code": "tonwexp:gladiusblade-blackbronze"},
+        "L": {"type": "item","code": "game:leather-plain"},
+        "R": {"type": "item", "code": "game:resin"},
+        "M": {"type": "item", "code": "hammersringingfall:rivet-*"}
+        },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "item", "code": "tonwexp:gladius-blackbronzeb"}
+    },
+    "file": "anmitech:recipes/grid/gladius.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1",
+    "value": {
+    "ingredientPattern": "_C_,RLM",
+    "ingredients": { 
+        "C": { "type": "item", "code": "tonwexp:gladiusblade-steel"},
+        "L": {"type": "item","code": "game:leather-plain"},
+        "R": {"type": "item", "code": "game:resin"},
+        "M": {"type": "item", "code": "hammersringingfall:rivet-*"}
+        },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "item", "code": "tonwexp:gladiusblade-steelb"}
+    },
+    "file": "anmitech:recipes/grid/gladius.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2",
+    "value": {
+    "ingredientPattern": "_C_,RLM",
+    "ingredients": { 
+        "C": { "type": "item", "code": "tonwexp:gladiusblade-iron"},
+        "L": {"type": "item","code": "game:leather-plain"},
+        "R": {"type": "item", "code": "game:resin"},
+        "M": {"type": "item", "code": "hammersringingfall:rivet-*"}
+        },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "item", "code": "tonwexp:gladius-ironl"}
+    },
+    "file": "anmitech:recipes/grid/gladius.json"
+  },
+  {
+    "op": "replace",
+    "path": "/3",
+    "value": {
+    "ingredientPattern": "_C_,RLM",
+    "ingredients": { 
+        "C": { "type": "item", "code": "tonwexp:gladiusblade-meteoriciron"},
+        "L": {"type": "item","code": "game:leather-plain"},
+        "R": {"type": "item", "code": "game:resin"},
+        "M": {"type": "item", "code": "hammersringingfall:rivet-*"}
+        },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "item", "code": "tonwexp:gladius-meteoricironl"}
+    },
+    "file": "anmitech:recipes/grid/gladius.json"
+  },
+  {
+    "op": "replace",
+    "path": "/3",
+    "value": {
+    "ingredientPattern": "_C_,RHM",
+    "ingredients": { 
+        "C": {"type": "item", "code": "tonwexp:gladiusblade-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze"]},
+        "H": {"type": "item","code": "hammersringingfall:toolhaft-medium"},
+        "R": {"type": "item", "code": "hammersringingfall:metalband-*"},
+        "M": {"type": "item", "code": "hammersringingfall:rivet-*", "quantity": 2}
+        },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "item", "code": "tonwexp:gladius-meteoricironl"}
+    },
+    "file": "anmitech:recipes/grid/gladius.json"
+  }
+]

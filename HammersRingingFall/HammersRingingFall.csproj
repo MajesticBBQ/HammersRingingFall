@@ -272,7 +272,7 @@
     <None Update="assets\hammersringingfall\recipes\grid\toolhaft.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\13rivets.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\15rivets.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\recipes\smithing\18nails.json">
@@ -296,7 +296,7 @@
     <None Update="assets\hammersringingfall\recipes\smithing\9nails.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\9rivets.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\10rivets.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\recipes\smithing\3hingeflangebottom.json">

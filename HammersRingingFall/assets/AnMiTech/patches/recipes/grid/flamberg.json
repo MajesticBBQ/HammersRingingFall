@@ -1,0 +1,23 @@
+[
+ {
+   "op": "replace",
+   "path": "/0",
+   "value": {
+        "ingredientPattern": "_B_,RHM,_L_",
+        "ingredients": {
+            "B": {"type": "item", "code": "tonwexp:flambergblade-*", "name": "steel"},
+            "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium"},
+            "M": {"type": "item", "code": "hammersringingfall:metalband-*"},
+            "R": {"type": "item", "code": "hammersringingfall:rivet-*", "quantity": 2},
+            "L": {"type": "item", "code": "game:leather-plain"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+        "type": "item",
+        "code": "tonwexp:flamberg-{steel}"
+     }
+   },
+   "file": "anmitech:recipes/grid/flamberg.json"
+ }
+]
