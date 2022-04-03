@@ -20,14 +20,14 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	  guiTransform: {
 		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 116, y: 128, z: -15 },
-		origin: { x: 0.55, y: 0.075, z: 0.375 },
-		scale: 2.05
+		rotation: { x: 116, y: 50, z: -15 },
+		origin: { x: 0.55, y: 0.475, z: 0.375 },
+		scale: 1.76
 	},
 		fpHandTransform: {
-		translation: { x: 0, y: 0.1, z: 0 },
-		rotation: { x: 0, y: 24, z: 20 },
-		origin: { x: 0.6212, y: -1.2, z: -0.6 },
+		translation: { x: 2, y: 0.1, z: -1.7 },
+		rotation: { x: 12, y: -28, z: 19 },
+		origin: { x: 0.4212, y: -0.9, z: -0.3 },
 		scale: 2.68
 	},
 	"groundTransform": {

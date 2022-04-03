@@ -1,0 +1,32 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "TBR,S__",
+    "file": "recipes/grid/tool/hammer.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+    "file": "recipes/grid/tool/hammer.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2},
+    "file": "recipes/grid/tool/hammer.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S",
+    "value": { "type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},
+    "file": "recipes/grid/tool/hammer.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 3,
+    "file": "recipes/grid/tool/hammer.json"
+  }
+]

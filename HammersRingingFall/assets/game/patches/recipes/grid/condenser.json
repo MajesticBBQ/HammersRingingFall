@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "STR,RIT",
+    "file": "recipes/grid/condenser.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 8},
+    "file": "recipes/grid/condenser.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 3,
+    "file": "recipes/grid/condenser.json"
+  }
+]

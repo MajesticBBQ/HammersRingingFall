@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "NBN,_R_,_S_",
+    "file": "fromgoldencombs:recipes/grid/parts/beeframe.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "fromgoldencombs:recipes/grid/parts/beeframe.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/parts/beeframe.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/0/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/parts/beeframe.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  }
+]

@@ -1,0 +1,12 @@
+[
+	{
+	"ingredientPattern": "T,S",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:hammerhead-copper"},
+				"S": { "type": "item", "code": "hammersringingfall:toolhaft-medium-finished"}
+			},
+			"width": 1,
+			"height": 2,
+			"output": { "type": "item", "code": "game:hammer-copper", "quantity": 1  }
+	}
+]

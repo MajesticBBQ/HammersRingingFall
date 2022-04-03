@@ -1,0 +1,35 @@
+[
+	{
+	"ingredientPattern": "T_,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat" }
+			},
+			"width": 2,
+			"height": 2,
+			"output": { "type": "item", "code": "hammersringingfall:toolhaft-short-oiled", "quantity": 4}
+	},
+	{
+	"ingredientPattern": "_T,LF",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat" }
+			},
+			"width": 2,
+			"height": 2,
+			"output": { "type": "item", "code": "hammersringingfall:toolhaft-medium-oiled", "quantity": 2}
+	},
+	{
+	"ingredientPattern": "LF,T_",
+			"ingredients": {
+				"T": { "type": "item", "code": "game:axe-*", "isTool": true},
+				"L": { "type": "block", "code": "game:log-*"},
+				"F": { "type": "item", "code": "game:fat" }
+			},
+			"width": 2,
+			"height": 2,
+			"output": { "type": "item", "code": "hammersringingfall:toolhaft-long-oiled", "quantity": 1}
+	}
+]

@@ -1,6 +1,28 @@
-0.1.0-dev.1
-	- Added recipes for hingepart-top, hingepart-bottom, hingepart-pin
-	- Added itemtype files for hingepart-top, hingepart-bottom, hingepart-pin
+
+1.2.2-rc.2 - Planned Features
+	- (UF) Add cordage recipe, set to not activate if Primitive Survival is installed.
+	- (UF) Add cordage to stone tool recipes, adjust to use PS cordage if it's available.
+
+1.2.1-dev.1 - Current Release
+	- Added missing comma to itemtypes file
+	- Adjusted AdvancedSmithing recipes
+	
+1.1.2-rc.1
+	- Fix missing tool haft in prospecting pick recipe.
+	- Incorporated //Courtesy of OpPointBaker into all smithing recipes they made
+	- Fixed Transforms on items
+
+1.1.1-rc.1
+	- Fixed issues occurring due to compiler weirdness.
+
+1.1.0-rc.1
+	- Added compatibility with From Golden Combs
+	- Corrected recipes for stone tools to not require hafts
+
+1.0.0-rc.1
+	- Completed adapting vanilla recipes
+	- Adjusted hinge recipes to 5/3 instead of 4/2
+	- Introduced tool haft to replace sticks in metal tools
 
 0.1.0-dev.2
 	- Added itemtype for metal bands and rivets
@@ -11,5 +33,9 @@
 	- Added 2 metal band recipe
 	- Flipped hinge bottom and top shapes.
 
-0.1.0-dev.3
-	- Added Zeekea Recipes
+0.1.0-dev.1
+	- Added recipes for hingepart-top, hingepart-bottom, hingepart-pin
+	- Added itemtype files for hingepart-top, hingepart-bottom, hingepart-pin
+
+
+

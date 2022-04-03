@@ -28,8 +28,8 @@
 		"scale": 1.51
 	},
 		tpHandTransform: {
-		translation: { x: -0.8, y: -0.1, z: -0.4 },
-		rotation: { x: 5, y: 82, z: 16 },
+		translation: { x: -0.9, y: 0, z: -0.5 },
+		rotation: { x: -70, y: 80, z: -180 },
 		origin: { x: 0.4, y: 0, z: 0.15 },
 		scale: 0.34
 	},

@@ -15,11 +15,11 @@
 		"ore": { "base": "game:block/metal/ingot/{metal}" }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
-		"guiTransform": {
-		"translation": {"x": 0, "y":0, "z": 0 },
-		"rotation": {"x": 146, "y":55, "z": -21 },
-		"origin": {"x": 0.5, "y":0.07, "z": 0.5 },
-		"scale": 3.68
+		guiTransform: {
+		translation: { x: 8, y: 2.3, z: 0.7 },
+		rotation: { x: 67, y: 140, z: 4 },
+		origin: { x: 0.5, y: -0.03, z: 0.6 },
+		scale: 2.78
 	},
 		"fpHandTransform": {
 		"translation": {"x": 0, "y":0.2, "z": 0 },
@@ -27,11 +27,11 @@
 		"origin": {"x": 0.73, "y":0.1, "z": 0.5 },
 		"scale": 1.1
 	},
-		"groundTransform": {
-		"translation": {"x": 0, "y":0, "z": 0 },
-		"rotation": {"x": -17, "y":-89, "z": 4 },
-		"origin": {"x": 0.5, "y":0, "z": 0.5 },
-		"scale": 1.99
+		groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -17, y: -89, z: 4 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.16
 	},
 		"tpHandTransform": {
 		"translation": {"x": -0.8, "y":-0.01, "z": -0.81 },

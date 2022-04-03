@@ -1,0 +1,15 @@
+//Courtesy of OpPointBaker
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal",
+    "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"##_##_##_##_##",
+		"#__#__#__#__#_",
+		"_#__#__#__#__#",
+		"##_##_##_##_##",
+		"__#__#__#__#__",
+		"_##_##_##_##__",
+	]],
+	name: "14 Arrowheads",
+	output: { type: "item", code: "game:arrowhead-{metal}", stacksize: 14  }
+}

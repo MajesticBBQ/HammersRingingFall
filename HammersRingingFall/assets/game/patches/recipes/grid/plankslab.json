@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "PNP",
+    "file": "recipes/grid/slabs/plankslabs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "recipes/grid/slabs/plankslabs.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 3,
+    "file": "recipes/grid/slabs/plankslabs.json"
+  }
+]

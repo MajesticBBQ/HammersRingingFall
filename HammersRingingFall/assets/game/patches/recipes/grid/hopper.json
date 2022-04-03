@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "IRI,RIR",
+    "file": "recipes/grid/hopper.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 4},
+    "file": "recipes/grid/hopper.json"
+  }
+]

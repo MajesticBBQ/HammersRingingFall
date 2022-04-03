@@ -1,0 +1,366 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/0/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/1/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/2/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/2/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/2/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/2/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/3/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/3/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/3/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/3/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/4/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/4/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/4/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/4/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/5/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/5/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/5/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/5/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/6/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/6/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/6/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/6/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/7/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/7/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/7/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/7/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/8/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/8/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/8/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/8/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/9/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/9/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/9/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/10/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/10/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/10/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/10/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/10/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/11/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/11/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/11/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/11/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/12/ingredientPattern",
+    "value": "_H_,NSN,PAP",
+    "file": "recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/12/height",
+    "value": 3,
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "add",
+    "path": "/12/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*", "quantity": 2},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+  {
+    "op": "replace",
+    "path": "/12/ingredients/S",
+    "value": { "type": "item", "code": "game:stick", "quantity": 4},
+    "file": "fromgoldencombs:recipes/grid/framerack.json",
+    "dependsOn": [ {"modid": "fromgoldencombs"}]
+  },
+]

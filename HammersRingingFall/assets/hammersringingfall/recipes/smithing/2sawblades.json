@@ -1,0 +1,13 @@
+//Courtesy of OpPointBaker
+
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+      "##############",
+      "#_#_#_#_#_#_#_",
+      "_#_#_#_#_#_#_#",
+      "##############"
+    ]],
+	name: "Saw",
+	output: { type: "item", code: "game:sawblade-{metal}", stacksize: 2 }
+}
