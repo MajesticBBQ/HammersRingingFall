@@ -1,0 +1,38 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "RBR,BFB,HBV",
+    "file": "anmitech:recipes/grid/scutum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/H",
+    "value": { "type": "item", "code": "game:cloth-red", "quantity": 2},
+    "file": "anmitech:recipes/grid/scutum.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/V",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*", "quantity": 4},
+    "file": "anmitech:recipes/grid/scutum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredientPattern",
+    "value": "RBR,BFB,HBV",
+    "file": "anmitech:recipes/grid/scutum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredients/H",
+    "value": { "type": "item", "code": "game:cloth-green", "quantity": 2},
+    "file": "anmitech:recipes/grid/scutum.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredients/V",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*", "quantity": 4},
+    "file": "anmitech:recipes/grid/scutum.json"
+  }
+]

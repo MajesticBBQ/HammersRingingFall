@@ -1,0 +1,56 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "_C_,LHR",
+    "file": "anmitech:recipes/grid/mace.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "value": "3",
+    "file": "anmitech:recipes/grid/mace.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/H",
+    "value": {"type": "item", "code": "hammersringingfall:toolhaft-medium"},
+    "file": "anmitech:recipes/grid/mace.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/R",
+    "value": {"type": "item", "code": "hammersringingfall:rivet-*"},
+    "file": "anmitech:recipes/grid/mace.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredientPattern",
+    "value": "_C_,BHR",
+    "file": "anmitech:recipes/grid/mace.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/width",
+    "value": "3",
+    "file": "anmitech:recipes/grid/mace.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredients/H",
+    "value": {"type": "item", "code": "hammersringingfall:toolhaft-medium"},
+    "file": "anmitech:recipes/grid/mace.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredients/R",
+    "value": {"type": "item", "code": "hammersringingfall:rivet-*"},
+    "file": "anmitech:recipes/grid/mace.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredients/B",
+    "value": {"type": "item", "code": "hammersringingfall:metalband-*"},
+    "file": "anmitech:recipes/grid/mace.json"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "_C_,BHR",
+    "file": "anmitech:recipes/grid/pilum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "value": "3",
+    "file": "anmitech:recipes/grid/pilum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/height",
+    "value": "2",
+    "file": "anmitech:recipes/grid/pilum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/H",
+    "value": {"type": "item", "code": "hammersringingfall:toolhaft-medium"},
+    "file": "anmitech:recipes/grid/pilum.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/R",
+    "value": {"type": "item", "code": "hammersringingfall:rivet-*"},
+    "file": "anmitech:recipes/grid/pilum.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/B",
+    "value": {"type": "item", "code": "hammersringingfall:metalband-*"},
+    "file": "anmitech:recipes/grid/pilum.json"
+  }
+]
