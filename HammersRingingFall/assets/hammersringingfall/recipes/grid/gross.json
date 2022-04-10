@@ -1,0 +1,14 @@
+[
+  {
+  "ingredientPattern": "_B_,RHM",
+    "ingredients": { 
+        "B": { "type": "item", "code": "tonwexp:grossblade-*", "name": "steel"},
+        "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium-oiled"},     
+        "R": {"type": "item", "code": "hammersringingfall:rivet-*"},
+        "M": {"type": "item", "code": "hammersringingfall:metalband-*"}
+        },
+    "width": 3,
+    "height": 2,
+    "output": {"type": "item", "code": "tonwexp:gross-{steel}"}
+  }
+]

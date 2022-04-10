@@ -3,37 +3,37 @@
   "op": "add",
   "path": "/0/enabled",
   "value": false,
-  "file": "anmitech:recipes/grid/seax.json"
+  "file": "tonwexp:recipes/grid/seax.json"
   },
   {
   "op": "add",
   "path": "/1/enabled",
   "value": false,
-  "file": "anmitech:recipes/grid/seax.json"
+  "file": "tonwexp:recipes/grid/seax.json"
   },
   {
   "op": "add",
   "path": "/2/enabled",
   "value": false,
-  "file": "anmitech:recipes/grid/seax.json"
+  "file": "tonwexp:recipes/grid/seax.json"
   },
   {
   "op": "add",
   "path": "/3/enabled",
   "value": false,
-  "file": "anmitech:recipes/grid/seax.json"
+  "file": "tonwexp:recipes/grid/seax.json"
   },
   {
   "op": "add",
   "path": "/4/enabled",
   "value": false,
-  "file": "anmitech:recipes/grid/seax.json"
+  "file": "tonwexp:recipes/grid/seax.json"
   },
   {
     "op": "add",
     "path": "/-",
     "value": {
-                "ingredientPattern": "C,RLV",
+                "ingredientPattern": "_C_,RLV",
                 "ingredients": {
                   "C":  { "type": "item", "code": "tonwexp:seaxblade-iron"},
                   "L":  { "type": "item", "code": "game:bone"},
@@ -44,13 +44,13 @@
                 "height": 2,
                 "output": {"type": "item", "code": "tonwexp:seax-boneiron"}
              },
-    "file": "anmitech:recipes/grid/seax.json"
+    "file": "tonwexp:recipes/grid/seax.json"
   },
   {
     "op": "add",
     "path": "/-",
     "value": {
-                "ingredientPattern": "C,RLV",
+                "ingredientPattern": "_C_,RLV",
                 "ingredients": {
                   "C":  { "type": "item", "code": "tonwexp:seaxblade-steel"},
                   "L":  { "type": "item", "code": "game:bone"},
@@ -61,7 +61,7 @@
                 "height": 2,
                 "output": {"type": "item", "code": "tonwexp:seax-steelb"}
              },
-    "file": "anmitech:recipes/grid/seax.json"
+    "file": "tonwexp:recipes/grid/seax.json"
   },
   {
     "op": "add",
@@ -69,17 +69,17 @@
     "value": {
                 "ingredientPattern": "_T_,LHR,_V_",
                 "ingredients": {
-                  "C":  { "type": "item", "code": "tonwexp:seaxblade-meteoriciron"},
+                  "T":  { "type": "item", "code": "tonwexp:seaxblade-meteoriciron"},
                   "L":  { "type": "item", "code": "game:leather-plain"},
-                  "H": {"type": "item", "code": "hammersringingfall:toolhaft-small"},
+                  "H": {"type": "item", "code": "hammersringingfall:toolhaft-short-oiled"},
                   "R": {"type": "item", "code": "game:resin"},
                   "V": {"type": "item", "code": "hammersringingfall:rivet-*"}
                 },
                 "width": 3,
-                "height": 2,
+                "height": 3,
                 "output": {"type": "item", "code": "tonwexp:seax-meteoricironl"}
              },
-    "file": "anmitech:recipes/grid/seax.json"
+    "file": "tonwexp:recipes/grid/seax.json"
   },
   {
     "op": "add",
@@ -87,9 +87,9 @@
     "value": {
                 "ingredientPattern": "_T_,LHR,_V_",
                 "ingredients": {
-                  "C":  { "type": "item", "code": "tonwexp:seaxblade-steel"},
+                  "T":  { "type": "item", "code": "tonwexp:seaxblade-steel"},
                   "L":  { "type": "item", "code": "game:leather-plain"},
-                  "H": {"type": "item", "code": "hammersringingfall:toolhaft-small"},
+                  "H": {"type": "item", "code": "hammersringingfall:toolhaft-short-oiled"},
                   "R": {"type": "item", "code": "game:resin"},
                   "V": {"type": "item", "code": "hammersringingfall:rivet-*"}
                 },
@@ -97,19 +97,23 @@
                 "height": 3,
                 "output": {"type": "item", "code": "tonwexp:seax-steell"}
              },
-    "file": "anmitech:recipes/grid/seax.json"
+    "file": "tonwexp:recipes/grid/seax.json"
   },
   {
-    "ingredientPattern": "_B_,LHR,_V_",
+    "op": "add",
+    "path": "/-",
+    "value": {"ingredientPattern": "_B_,LHR,_V_",
     "ingredients": {
       "B" : { "type": "item", "code": "tonwexp:seaxblade-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron"]},
       "L":  { "type": "item", "code": "game:leather-plain"},
-      "H": {"type": "item", "code": "hammersringingfall:toolhaft-small"},
-      "R": {"type": "item", "code": "game:resin"}
+      "H": {"type": "item", "code": "hammersringingfall:toolhaft-short-oiled"},
+      "R": {"type": "item", "code": "game:resin"},
+      "V": {"type": "item", "code": "hammersringingfall:rivet-*"}
     },
     "width": 3,
     "height": 3,
-    "output": {"type": "item", "code": "tonwexp:seax-{metal}", "quantity": 1},
-    "file": "anmitech:recipes/grid/seax.json"
+    "output": {"type": "item", "code": "tonwexp:seax-{metal}", "quantity": 1}
+    },
+    "file": "tonwexp:recipes/grid/seax.json"
   }
 ]

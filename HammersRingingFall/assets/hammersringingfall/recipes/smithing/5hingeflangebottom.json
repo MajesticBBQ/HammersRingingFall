@@ -1,7 +1,7 @@
 {
     "ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal",
     "allowedVariants": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"] },
-    "name": "2hingeflangebottom",
+    "name": "5hingeflangebottom",
     "pattern": [[
         "###_###_###",
         "_#___#___#_",
@@ -11,7 +11,7 @@
         "___#___#___",
         "__###_###__"
     ]],
-    "output": { "type": "item", "code": "hammersringingfall:hingeflangebottom-{metal}", "stacksize": 2}
+    "output": { "type": "item", "code": "hammersringingfall:hingeflangebottom-{metal}", "stacksize": 5}
 }
 
 

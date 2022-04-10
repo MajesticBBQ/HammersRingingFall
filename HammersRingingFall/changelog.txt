@@ -1,12 +1,9 @@
-
-1.2.2-rc.2 - Planned Features
-	- (UF) Add cordage recipe, set to not activate if Primitive Survival is installed.
-	- (UF) Add cordage to stone tool recipes, adjust to use PS cordage if it's available.
-
 1.2.1-dev.1 - Current Release
 	- Added missing comma to itemtypes file
 	- Adjusted AdvancedSmithing recipes
-	
+	- Updated to add compatibility with Ancient Military Technology
+	- Updated to be compatibile with From Golden Combs	
+	- A lot of bug fixes.
 1.1.2-rc.1
 	- Fix missing tool haft in prospecting pick recipe.
 	- Incorporated //Courtesy of OpPointBaker into all smithing recipes they made

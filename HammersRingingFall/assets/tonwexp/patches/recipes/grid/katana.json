@@ -3,18 +3,18 @@
     "op": "replace",
     "path": "/0",
     "value": {
-    "ingredientPattern": "_L_,_H_,MGO",
+    "ingredientPattern": "_L_,_H_,MGR",
     "ingredients": { 
-        "L": { "type": "item", "code": "tonwexp:katanablade-*", "allowedVariants": ["iron", "meteoriciron", "steel"]},
+        "L": { "type": "item", "code": "tonwexp:katanablade-*", "name": "steel", "allowedVariants": ["iron", "meteoriciron", "steel"]},
         "H": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze"]},
-        "S": {"type": "item", "code": "hammersringingfall:toolhaft-medium"},     
+        "G": {"type": "item", "code": "hammersringingfall:toolhaft-medium-oiled"},     
         "R": {"type": "item", "code": "hammersringingfall:rivet-*"},
         "M": {"type": "item", "code": "hammersringingfall:metalband-*"}
         },
     "width": 3,
     "height": 3,
-    "output": {"type": "item", "code": "tonwexp:katzbalger-{steel}"}
+    "output": {"type": "item", "code": "tonwexp:katana-{steel}"}
     },
-    "file": "anmitech:recipes/grid/katana.json"
+    "file": "tonwexp:recipes/grid/katana.json"
   }
 ]

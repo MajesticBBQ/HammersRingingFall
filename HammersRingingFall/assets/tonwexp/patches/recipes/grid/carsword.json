@@ -6,9 +6,10 @@
       "ingredientPattern": "_T_,MGB,_L_",
       "ingredients": {
       "T": {"type": "item", "code": "tonwexp:carswordblade-steelu"},
-      "G": {"type": "item", "code": "hammersringingfall:toolhaft-small"},
-      "M": {"type": "item", "code": "game:resin"},
-      "O": {"type": "item", "code": "game:leather-plain"}
+      "G": {"type": "item", "code": "hammersringingfall:toolhaft-short-oiled"},
+      "M": {"type": "item", "code": "hammersringingfall:metalband-*"},
+      "B": {"type": "item", "code": "hammersringingfall:rivet-*"},
+      "L": {"type": "item", "code": "game:leather-plain"}
       },
   "width": 3,
   "height": 3,
@@ -18,7 +19,7 @@
       "code": "tonwexp:carsword-steel"
     }
   },
-  "file": "anmitech:recipes/grid/carsword.json"
+  "file": "tonwexp:recipes/grid/carsword.json"
   },
   {
    "op": "replace",
@@ -27,9 +28,10 @@
       "ingredientPattern": "_T_,MGB,_L_",
       "ingredients": {
       "T": {"type": "item", "code": "tonwexp:carswordblade-iron"},
-      "G": {"type": "item", "code": "game:stick"},
-      "M": {"type": "item", "code": "game:resin"},
-      "O": {"type": "item", "code": "game:leather-plain"}
+      "G": {"type": "item", "code": "hammersringingfall:toolhaft-short-oiled"},
+      "M": {"type": "item", "code": "hammersringingfall:metalband-*"},
+      "B": {"type": "item", "code": "hammersringingfall:rivet-*"},
+      "L": {"type": "item", "code": "game:leather-plain"}
       },
     "width": 3,
     "height": 3,
@@ -37,9 +39,9 @@
     "output": {
     "type": "item",
     "code": "tonwexp:carsword-iron"
-    },
-    "file": "anmitech:recipes/grid/carsword.json"
-  }
+    }
+  },
+   "file": "tonwexp:recipes/grid/carsword.json"
  },
   {
    "op": "replace",
@@ -48,11 +50,12 @@
       "ingredientPattern": "_T_,MGB,_L_",
       "ingredients": {
       "T": {"type": "item", "code": "tonwexp:carswordblade-meteoriciron"},
-      "G": {"type": "item", "code": "game:stick"},
-      "M": {"type": "item", "code": "game:resin"},
-      "O": {"type": "item", "code": "game:leather-plain"}
+      "G": {"type": "item", "code": "hammersringingfall:toolhaft-short-oiled"},
+      "M": {"type": "item", "code": "hammersringingfall:metalband-*"},
+      "B": {"type": "item", "code": "hammersringingfall:rivet-*"},
+      "L": {"type": "item", "code": "game:leather-plain"}
       },
-    "width": 2,
+    "width": 3,
     "height": 3,
     "shapeless": false,
     "output": {
@@ -60,6 +63,6 @@
     "code": "tonwexp:carsword-meteoriciron"
     }
   },
-  "file": "anmitech:recipes/grid/carsword.json"
+  "file": "tonwexp:recipes/grid/carsword.json"
  }
 ]

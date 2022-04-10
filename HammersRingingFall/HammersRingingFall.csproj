@@ -5,6 +5,10 @@
     <LangVersion>9</LangVersion>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
   <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1164\Lib\0Harmony.dll</HintPath>
@@ -41,6 +45,48 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="assets\tonwexp\patches\itemtypes\spear.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\axe.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\carsword.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\flamberg.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\gladius.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\gross.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\katana.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\katzbalger.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\mace.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\pilum.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\saber.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\scutum.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\seax.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\spear.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\fromgoldencombs\patches\recipes\grid\beeframe.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -272,16 +318,40 @@
     <None Update="assets\hammersringingfall\recipes\grid\toolhaft.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\14arrowhead.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\hammersringingfall\recipes\smithing\15rivets.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\recipes\smithing\18nails.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\2chisels.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\2knives.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\2padlocks.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\2prospectingpicks.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\2sawblades.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\2scytheblades.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\3hoes.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\hammersringingfall\recipes\smithing\5hingeflangebottom.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\5hingeflangetop.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\4hingeflangetop.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\recipes\smithing\2metalband.json">
@@ -290,13 +360,13 @@
     <None Update="assets\hammersringingfall\recipes\smithing\4metalband.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\5hingepin.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\10hingepin.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\9nails.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\10nails.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\10rivets.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\8rivets.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\recipes\smithing\3hingeflangebottom.json">
@@ -344,6 +414,10 @@
     <None Update="modinfo.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="assets\game\patches\blocktypes\" />
   </ItemGroup>
 
 </Project>

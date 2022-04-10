@@ -1,12 +1,9 @@
 [
   {
-    "op": "replace",
-    "path": "/",
-    "value": {
-    "ingredientPattern": "_B_,MHR,_L_",
+"ingredientPattern": "_B_,MHR,_L_",
     "ingredients": { 
         "B": { "type": "item", "code": "tonwexp:katzbalgerblade-*", "name": "steel"},
-        "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium"},
+        "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium-oiled"},
         "L": {"type": "item","code": "game:leather-plain"},
         "R": {"type": "item", "code": "hammersringingfall:rivet-*"},
         "M": {"type": "item", "code": "hammersringingfall:metalband-*"},
@@ -14,7 +11,5 @@
     "width": 3,
     "height": 3,
     "output": {"type": "item", "code": "tonwexp:katzbalger-{steel}"}
-    },
-    "file": "anmitech:recipes/grid/mace.json"
   }
 ]

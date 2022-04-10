@@ -15,5 +15,5 @@
         "___________"
     ]
 ],
-    "output": { "type": "item", "code": "hammersringingfall:hingeflangetop-{metal}"}
+    "output": { "type": "item", "code": "hammersringingfall:hingeflangetop-{metal}", "stacksize": 3}
 }

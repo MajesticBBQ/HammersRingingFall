@@ -1,12 +1,12 @@
 [
   {
     "op": "replace",
-    "path": "/0/",
+    "path": "/0",
     "value": {
-    "ingredientPattern": "C,BHR",
+    "ingredientPattern": "_C_,BHR",
     "ingredients": {
       "C": { "type": "item", "code": "tonwexp:spearhead-*", "name": "material", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "copper", "iron", "blackbronze", "meteoriciron", "steel"] },
-      "H": { "type": "item", "code": "hammersringingfall:toolhaft-long"},
+      "H": { "type": "item", "code": "hammersringingfall:toolhaft-long-oiled"},
       "B": { "type": "item", "code": "hammersringingfall:metalband-*"},
       "R": { "type": "item", "code": "hammersringingfall:rivet-*", "quantity": 2}
     },
@@ -16,6 +16,6 @@
     "output": { "type": "item", "code": "tonwexp:spear-{material}" },
 	"quantity": 1
   },
-    "file": "anmitech:recipes/grid/spear.json"
+    "file": "tonwexp:recipes/grid/spear.json"
   }
 ]

@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/class",
+    "value": "EntityDrifter",
+    "file": "game:entities/land/drifter.json"
+  }
+]

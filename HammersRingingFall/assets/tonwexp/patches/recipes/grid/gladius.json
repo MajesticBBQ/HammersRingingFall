@@ -11,10 +11,10 @@
         "M": {"type": "item", "code": "hammersringingfall:rivet-*"}
         },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": {"type": "item", "code": "tonwexp:gladius-blackbronzeb"}
     },
-    "file": "anmitech:recipes/grid/gladius.json"
+    "file": "tonwexp:recipes/grid/gladius.json"
   },
   {
     "op": "replace",
@@ -28,10 +28,10 @@
         "M": {"type": "item", "code": "hammersringingfall:rivet-*"}
         },
     "width": 3,
-    "height": 3,
-    "output": {"type": "item", "code": "tonwexp:gladiusblade-steelb"}
+    "height": 2,
+    "output": {"type": "item", "code": "tonwexp:gladius-steelb"}
     },
-    "file": "anmitech:recipes/grid/gladius.json"
+    "file": "tonwexp:recipes/grid/gladius.json"
   },
   {
     "op": "replace",
@@ -45,10 +45,10 @@
         "M": {"type": "item", "code": "hammersringingfall:rivet-*"}
         },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": {"type": "item", "code": "tonwexp:gladius-ironl"}
     },
-    "file": "anmitech:recipes/grid/gladius.json"
+    "file": "tonwexp:recipes/grid/gladius.json"
   },
   {
     "op": "replace",
@@ -62,10 +62,10 @@
         "M": {"type": "item", "code": "hammersringingfall:rivet-*"}
         },
     "width": 3,
-    "height": 3,
+    "height": 2,
     "output": {"type": "item", "code": "tonwexp:gladius-meteoricironl"}
     },
-    "file": "anmitech:recipes/grid/gladius.json"
+    "file": "tonwexp:recipes/grid/gladius.json"
   },
   {
     "op": "replace",
@@ -74,14 +74,14 @@
     "ingredientPattern": "_C_,RHM",
     "ingredients": { 
         "C": {"type": "item", "code": "tonwexp:gladiusblade-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze"]},
-        "H": {"type": "item","code": "hammersringingfall:toolhaft-medium"},
+        "H": {"type": "item","code": "hammersringingfall:toolhaft-medium-oiled"},
         "R": {"type": "item", "code": "hammersringingfall:metalband-*"},
         "M": {"type": "item", "code": "hammersringingfall:rivet-*", "quantity": 2}
         },
     "width": 3,
-    "height": 3,
-    "output": {"type": "item", "code": "tonwexp:gladius-meteoricironl"}
+    "height": 2,
+    "output": {"type": "item", "code": "tonwexp:gladius-{metal}"}
     },
-    "file": "anmitech:recipes/grid/gladius.json"
+    "file": "tonwexp:recipes/grid/gladius.json"
   }
 ]
