@@ -3,7 +3,7 @@
       "ingredientPattern": "_B_,RHM,_L_",
       "ingredients": {
           "B": {"type": "item", "code": "tonwexp:flambergblade-*", "name": "steel"},
-          "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium-oiled"},
+          "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},
           "M": {"type": "item", "code": "hammersringingfall:metalband-*"},
           "R": {"type": "item", "code": "hammersringingfall:rivet-*", "quantity": 2},
           "L": {"type": "item", "code": "game:leather-plain"}

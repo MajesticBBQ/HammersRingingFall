@@ -1,7 +1,0 @@
-[
-  {"op": "replace",
-   "path": "/ingredients/T",
-   "value": { "type": "item", "code": "hoehead-*", "name": "metal", "allowedVariants": ["chert", "granite", "andesite", "basalt", "obsidian", "flint", "peridotite"]},
-   "file": "recipes/grid/tool/hoe.json"
-  }
-]

@@ -3,7 +3,7 @@
     "ingredientPattern": "_C_,LHR",
     "ingredients": {
       "C": { "type": "item", "code": "tonwexp:macehead-*", "name": "metal", "allowedVariants": ["blackbronze", "meteoriciron", "steel"] },
-      "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium-oiled"},
+      "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},
       "R": {"type": "item", "code": "hammersringingfall:rivet-*"},
       "L": { "type": "item", "code": "game:leather-plain" }
     },
@@ -16,7 +16,7 @@
     "ingredientPattern": "_C_,LHR",
     "ingredients": {
       "C": { "type": "item", "code": "tonwexp:macehead-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "copper", "iron"] },
-      "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium-oiled"},
+      "H": {"type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},
       "R": {"type": "item", "code": "hammersringingfall:rivet-*"},
       "L": { "type": "item", "code": "game:leather-plain" }
     },

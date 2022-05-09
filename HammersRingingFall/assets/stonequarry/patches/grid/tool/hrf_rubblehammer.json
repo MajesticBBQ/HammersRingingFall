@@ -1,0 +1,36 @@
+//Created by WesCookie
+//Patches the recipe for rubble hammers 
+//from the Stone Quarry mod for use with 
+//Hammer's Ringing Fall mechanics
+[
+    {
+      "op": "replace",
+      "path": "/ingredientPattern",
+      "value": "TBR,S__",
+      "file": "stonequarry:recipes/grid/tool/rubblehammer.json"
+    },
+    {
+      "op": "add",
+      "path": "/ingredients/B",
+      "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+      "file": "stonequarry:recipes/grid/tool/rubblehammer.json"
+    },
+    {
+      "op": "add",
+      "path": "/ingredients/R",
+      "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2},
+      "file": "stonequarry:recipes/grid/tool/rubblehammer.json"
+    },
+    {
+      "op": "replace",
+      "path": "/ingredients/S",
+      "value": { "type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},
+      "file": "stonequarry:recipes/grid/tool/rubblehammer.json"
+    },
+    {
+      "op":"replace",
+      "path":"width",
+      "value": 3,
+      "file": "stonequarry:recipes/grid/tool/rubblehammer.json"
+    }
+  ]

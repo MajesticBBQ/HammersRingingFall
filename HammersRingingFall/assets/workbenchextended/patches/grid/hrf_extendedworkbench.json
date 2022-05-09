@@ -1,0 +1,30 @@
+[
+  {
+  "op": "replace",
+  "path": "/ingredientPattern",
+  "value": "LPL,EEE,WNW",
+  "file": "workbenchextended:recipes/grid/tool/extendedworkbench.json",
+  "dependson": [{"modid": "workbenchextended"}]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/L",
+    "value": { "type": "item", "code": "game:leather","quantity": 4},
+    "file": "workbenchextended:recipes/grid/tool/extendedworkbench.json",
+    "dependson": [{"modid": "workbenchextended"}]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 16},
+    "file": "workbenchextended:recipes/grid/tool/extendedworkbench.json",
+    "dependson": [{"modid": "workbenchextended"}]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/P",
+    "value": { "type": "item", "code": "game:metalplate-*","quantity": 4},
+    "file": "workbenchextended:recipes/grid/tool/extendedworkbench.json",
+    "dependson": [{"modid": "workbenchextended"}]
+  }
+]

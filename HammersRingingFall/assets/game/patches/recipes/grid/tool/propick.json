@@ -1,7 +1,0 @@
-[
-  {"op": "replace",
-   "path": "/ingredients/S",
-   "value":{ "type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},
-   "file": "recipes/grid/prospectingpick.json"
-  }
-]

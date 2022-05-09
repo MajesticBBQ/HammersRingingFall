@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "WWW,PNP,WWW",
+    "file": "game:recipes/grid/crate.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 8},
+    "file": "game:recipes/grid/crate.json"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "PN,PP",
+    "file": "game:recipes/grid/plankstairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*"},
+    "file": "game:recipes/grid/stairs/plankstairs.json"
+  }
+]

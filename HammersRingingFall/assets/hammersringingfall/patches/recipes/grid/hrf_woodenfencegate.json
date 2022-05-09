@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "HPS,HPS",
+    "file": "game:recipes/grid/woodenfencegate.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/H",
+    "value": { "type": "item", "code": "hammersringingfall:hinge-*"},
+    "file": "game:recipes/grid/woodenfencegate.json"
+  }
+]

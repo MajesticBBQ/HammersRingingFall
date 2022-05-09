@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "PPP,NHN,AXA",
+    "file": "lichen:recipes/grid/gemsmount.json",
+    "dependson": [{"modid": "lichen"}]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+    "file": "lichen:recipes/grid/gemsmount.json",
+    "dependson": [{"modid": "lichen"}]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/X",
+    "value": { "type": "item", "code": "game:plank-oak", "quantity": 3 },
+    "file": "lichen:recipes/grid/gemsmount.json",
+    "dependson": [{"modid": "lichen"}]
+  },
+  {
+    "op": "replace",
+    "path": "/1/ingredientPattern",
+    "value": "A_A,PPP,NPN",
+    "file": "lichen:recipes/grid/gemsmount.json",
+    "dependson": [{"modid": "lichen"}]
+  }
+]

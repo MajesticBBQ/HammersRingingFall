@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "WLW,WNW",
+    "file": "game:recipes/grid/chair.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+    "file": "game:recipes/grid/chair.json"
+  }
+]

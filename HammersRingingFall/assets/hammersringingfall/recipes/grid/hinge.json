@@ -2,9 +2,9 @@
   {
   "ingredientPattern":  "T,P,B",
   "ingredients": {
-    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-copper"},
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflange*-copper"},
     "P": {"type": "item", "code": "hammersringingfall:pin-copper"},
-    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-copper"}
+    "B": {"type": "item", "code": "hammersringingfall:hingeflange*-copper"}
     
     },
   "width": 1,
@@ -14,9 +14,9 @@
   {
   "ingredientPattern":  "T,P,B",
   "ingredients": {
-    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-brass"},
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflange*-brass"},
     "P": {"type": "item", "code": "hammersringingfall:pin-brass"},
-    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-brass"}
+    "B": {"type": "item", "code": "hammersringingfall:hingeflange*-brass"}
     
   },
   "width": 1,
@@ -26,9 +26,9 @@
   {
   "ingredientPattern":  "T,P,B",
   "ingredients": {
-    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-tinbronze"},
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflange*-tinbronze"},
     "P": {"type": "item", "code": "hammersringingfall:pin-tinbronze"},
-    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-tinbronze"}
+    "B": {"type": "item", "code": "hammersringingfall:hingeflange*-tinbronze"}
     
   },
   "width": 1,
@@ -38,9 +38,9 @@
   {
   "ingredientPattern":  "T,P,B",
   "ingredients": {
-    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-bismuthbronze"},
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflange*-bismuthbronze"},
     "P": {"type": "item", "code": "hammersringingfall:pin-bismuthbronze"},
-    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-bismuthbronze"}
+    "B": {"type": "item", "code": "hammersringingfall:hingeflange*-bismuthbronze"}
     
   },
   "width": 1,
@@ -50,9 +50,9 @@
   {
   "ingredientPattern":  "T,P,B",
   "ingredients": {
-    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-blackbronze"},
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflange*-blackbronze"},
     "P": {"type": "item", "code": "hammersringingfall:pin-blackbronze"},
-    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-blackbronze"}
+    "B": {"type": "item", "code": "hammersringingfall:hingeflange*-blackbronze"}
     
   },
   "width": 1,
@@ -62,9 +62,9 @@
   {
   "ingredientPattern":  "T,P,B",
   "ingredients": {
-    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-iron"},
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflange*-iron"},
     "P": {"type": "item", "code": "hammersringingfall:pin-iron"},
-    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-iron"}
+    "B": {"type": "item", "code": "hammersringingfall:hingeflange*-iron"}
     
   },
   "width": 1,
@@ -74,9 +74,9 @@
   {
   "ingredientPattern":  "T,P,B",
   "ingredients": {
-    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-titanium"},
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflange*-titanium"},
     "P": {"type": "item", "code": "hammersringingfall:pin-titanium"},
-    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-titanium"}
+    "B": {"type": "item", "code": "hammersringingfall:hingeflange*-titanium"}
     
   },
   "width": 1,
@@ -86,9 +86,9 @@
   {
   "ingredientPattern":  "T,P,B",
   "ingredients": {
-    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-meteoriciron"},
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflange*-meteoriciron"},
     "P": {"type": "item", "code": "hammersringingfall:pin-meteoriciron"},
-    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-meteoriciron"}
+    "B": {"type": "item", "code": "hammersringingfall:hingeflange*-meteoriciron"}
     
   },
   "width": 1,
@@ -98,9 +98,9 @@
   {
   "ingredientPattern":  "T,P,B",
   "ingredients": {
-    "T":  {"type": "item", "code": "hammersringingfall:hingeflangetop-steel"},
+    "T":  {"type": "item", "code": "hammersringingfall:hingeflange*-steel"},
     "P": {"type": "item", "code": "hammersringingfall:pin-steel"},
-    "B": {"type": "item", "code": "hammersringingfall:hingeflangebottom-steel"}
+    "B": {"type": "item", "code": "hammersringingfall:hingeflange*-steel"}
     
   },
   "width": 1,

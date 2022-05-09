@@ -1,0 +1,23 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "WNW,WPW",
+    "file": "stonequarry:recipes/grid/rubblestorage.json",
+    "dependson": [{"modid": "stonequarry"}]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 8},
+    "file": "stonequarry:recipes/grid/rubblestorage.json",
+    "dependson": [{"modid": "stonequarry"}]
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/W",
+    "value": { "type": "item", "code": "game:plank-*","quantity": 4},
+    "file": "stonequarry:recipes/grid/rubblestorage.json",
+    "dependson": [{"modid": "stonequarry"}]
+  }
+]

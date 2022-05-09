@@ -10,7 +10,7 @@
 		{ "code": "metal", "states": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"]}
 	],
 	"storageflags": 5,
-	"shape":{ "base": "hammersringingfall:item/hingeflangetop" },	
+	"shape":{ "base": "hammersringingfall:item/hingeflangebottom" },	
 	"textures": {
 		"ore": { "base": "game:block/metal/ingot/{metal}" }
 	},

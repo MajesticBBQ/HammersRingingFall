@@ -11,7 +11,7 @@
         "___#___#___",
         "__###_###__"
     ]],
-    "output": { "type": "item", "code": "hammersringingfall:hingeflangebottom-{metal}", "stacksize": 5}
+    "output": { "type": "item", "code": "hammersringingfall:hingeflange-{metal}", "stacksize": 5}
 }
 
 

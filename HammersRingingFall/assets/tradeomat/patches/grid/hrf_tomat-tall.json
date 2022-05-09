@@ -1,0 +1,23 @@
+[
+  {
+  "op": "replace",
+  "path": "/ingredientPattern",
+  "value": "BHB,BCB,NCN",
+  "file": "tradeomat:recipes/grid/tomat-tall.json",
+  "dependson": [{"modid": "tradeomat"}]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:metalband-*","quantity": 1},
+    "file": "tradeomat:recipes/grid/tomat-tall.json",
+    "dependson": [{"modid": "tradeomat"}]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+    "file": "tradeomat:recipes/grid/tomat-tall.json",
+    "dependson": [{"modid": "tradeomat"}]
+  }
+]

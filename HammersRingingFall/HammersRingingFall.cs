@@ -15,9 +15,31 @@ namespace HammersRingingFall
         public override void Start(ICoreAPI api)
         {
             base.Start(api);
-            api.RegisterEntity("EntityDrifter", typeof(EntityDrifter));
-        }
-    }
 
-    
+            try
+            {
+                HammersRingingFallConfig FromDisk;
+                if ((FromDisk = api.LoadModConfig<HammersRingingFallConfig>("HammersRingingFallConfig.json")) == null)
+                {
+                    api.StoreModConfig<HammersRingingFallConfig>(HammersRingingFallConfig.Loaded, "HammersRingingFallConfig.json");
+                }
+                else HammersRingingFallConfig.Loaded = FromDisk;
+            }
+            catch
+            {
+                api.StoreModConfig<HammersRingingFallConfig>(HammersRingingFallConfig.Loaded, "HammersRingingFallConfig.json");
+            }
+
+            api.World.Config.SetInt($"CrucibleCapacityPerSlot", HammersRingingFallConfig.Loaded.CrucibleCapacityPerSlot);
+        }
+
+        public class HammersRingingFallConfig : ModSystem
+        {
+            public static HammersRingingFallConfig Loaded { get; set; } = new HammersRingingFallConfig();
+            public int CrucibleCapacityPerSlot { get; set; } = 10;
+
+
+        }
+        
+    }
 }

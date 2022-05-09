@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "HWW,NWW,HWW",
+    "file": "game:recipes/grid/door.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 6},
+    "file": "game:recipes/grid/door.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/H",
+    "value": { "type": "item", "code": "hammersringingfall:hinge-*"},
+    "file": "game:recipes/grid/door.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "value": 3,
+    "file": "game:recipes/grid/door.json"
+  }
+]

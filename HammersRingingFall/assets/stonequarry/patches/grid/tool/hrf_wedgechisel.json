@@ -1,0 +1,30 @@
+//Created by WesCookie
+//Patches the recipe for wedge chisels 
+//from the Stone Quarry mod for use with 
+//Hammer's Ringing Fall mechanics
+[
+    {
+      "op": "replace",
+      "path": "/ingredientPattern",
+      "value": "TR_,S__",
+      "file": "stonequarry:recipes/grid/tool/wedgechisel.json"
+    },
+    {
+      "op": "add",
+      "path": "/ingredients/R",
+      "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2},
+      "file": "stonequarry:recipes/grid/tool/wedgechisel.json"
+    },
+    {
+      "op": "replace",
+      "path": "/ingredients/S",
+      "value": { "type": "item", "code": "hammersringingfall:toolhaft-small-finished"},
+      "file": "stonequarry:recipes/grid/tool/wedgechisel.json"
+    },
+    {
+      "op":"replace",
+      "path":"width",
+      "value": 2,
+      "file": "stonequarry:recipes/grid/tool/wedgechisel.json"
+    }
+  ]
