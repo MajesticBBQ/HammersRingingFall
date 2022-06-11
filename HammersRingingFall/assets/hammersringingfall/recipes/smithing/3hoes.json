@@ -3,7 +3,7 @@
 {
 	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
 	pattern: [[
-	  "_#_########___",
+	    "_#_########___",
       "_##______##___",
       "_########_#_#_",
       "___________##_",

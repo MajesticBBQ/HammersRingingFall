@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "_H_,NHN,BBB",
+    "file": "game:recipes/grid/armorstand.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+    "file": "game:recipes/grid/armorstand.json"
+  }
+]

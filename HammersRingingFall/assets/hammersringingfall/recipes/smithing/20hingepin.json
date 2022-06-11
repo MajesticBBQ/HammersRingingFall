@@ -1,0 +1,14 @@
+{
+    "ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal",
+    "allowedVariants": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"]},
+    "name": "10pin",
+    "pattern": [[
+        "#_#_#_#_#_",
+        "#_#_#_#_#_",
+        "#_#_#_#_#_",
+        "_#_#_#_#_#",
+        "_#_#_#_#_#",
+        "_#_#_#_#_#"
+    ]],
+    "output": { "type": "item", "code": "hammersringingfall:pin-{metal}", "stacksize": 20}
+}

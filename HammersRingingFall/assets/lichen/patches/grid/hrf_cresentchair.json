@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "PNP,SPS,PNP",
+    "file": "lichen:recipes/grid/cresentchair.json",
+    "dependson": [{"modid": "lichen"}]
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+    "file": "lichen:recipes/grid/cresentchair.json",
+    "dependson": [{"modid": "lichen"}]
+  }
+]

@@ -4,7 +4,7 @@
   name: "Chisel",
 	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
 	pattern: [[
-	  "________###_",
+	    "________###_",
       "_##########_",
       "________###_",
       "_###________",

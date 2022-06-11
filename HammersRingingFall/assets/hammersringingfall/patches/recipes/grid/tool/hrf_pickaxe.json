@@ -1,0 +1,30 @@
+[
+  {"op": "replace",
+   "path": "/ingredientPattern",
+   "value": "T,R,S",
+   "file": "game:recipes/grid/tool/pickaxe.json"
+  },
+  {"op": "add",
+   "path": "/ingredients/T/allowedVariants",
+   "value": ["tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"],
+   "file": "game:recipes/grid/tool/pickaxe.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2},
+    "file": "game:recipes/grid/tool/pickaxe.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S",
+    "value": { "type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},
+    "file": "game:recipes/grid/tool/pickaxe.json"
+  },
+  {
+    "op": "replace",
+    "path": "/height",
+    "value": 3,
+    "file": "game:recipes/grid/tool/pickaxe.json"
+  }
+]

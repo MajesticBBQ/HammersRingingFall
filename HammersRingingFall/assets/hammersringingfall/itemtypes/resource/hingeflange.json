@@ -1,0 +1,34 @@
+{
+	 "code": "hingeflange",
+	"maxstacksize": 64,
+	"dimensions": { "width": 0.0625, "height": 0.0625, "length": 0.0625 },
+	"attributes": {
+		 "displaycaseable": true,
+		"shelvable": true
+	},
+	"variantgroups": [
+		{ "code": "metal", "states": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"]}
+	],
+	"storageflags": 5,
+	"shape":{ "base": "hammersringingfall:item/hingeflangebottom" },	
+	"textures": {
+		"ore": { "base": "game:block/metal/ingot/{metal}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+		fpHandTransform: {
+		rotation: { x: 55, y: 7, z: 1 },
+		origin: { x: 0, y: 0.1, z: 1.1 },
+		scale: 1.09
+		},
+		guiTransform: {
+		translation: { x: 0.5, y: 0, z: 5 },
+		rotation: { x: -112, y: -28, z: -2 },
+		origin: { x: 0.6, y: 0.6, z: 0.8 },
+		scale: 2.21
+	},
+  	tpHandTransform: {
+		translation: { x: -1.9, y: -1.6, z: -1.1 },
+		rotation: { x: -2, y: -84, z: 7 },
+		origin: { x: 0.4, y: 0.8, z: 0.4 }
+	}
+}

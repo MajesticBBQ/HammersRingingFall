@@ -3,10 +3,10 @@
 	"allowedVariants": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"] },
 	"name": "2 Bands",
 	"pattern": [[
-		"#########",
-		"_________",
-		"#########",
-		"_________",
+		"##########",
+		"__________",
+		"##########",
+		"__________",
 		]],
 	"output": { "type": "item", "code": "hammersringingfall:metalband-{metal}", "stacksize": 2 }	
 }

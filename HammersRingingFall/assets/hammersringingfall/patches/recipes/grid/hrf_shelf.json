@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "PP,BN,PP",
+    "file": "game:recipes/grid/shelf.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+    "file": "game:recipes/grid/shelf.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": { "type": "item", "code": "hammersringingfall:metalband-*", "quantity": 2},
+    "file": "game:recipes/grid/shelf.json"
+  }
+]

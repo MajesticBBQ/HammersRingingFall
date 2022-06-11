@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/attackpowerbytype",
+    "value": {
+      "spear-copper": 1.0,
+		  "spear-tinbronze": 2.0,
+		  "spear-bismuthbronze": 3.0,
+		  "spear-blackbronze": 4.0,
+		  "spear-iron": 5.0,
+		  "spear-meteoriciron": 6.0,
+		  "spear-steel": 7.0
+    },
+    "file": "tonwexp:itemtypes/spear.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/damageByType",
+    "value": {
+      "spear-copper": 1,
+		  "spear-tinbronze": 2,
+		  "spear-bismuthbronze": 3,
+		  "spear-blackbronze": 4,
+		  "spear-iron": 5,
+		  "spear-meteoriciron": 6,
+		  "spear-steel": 7
+    },
+    "file": "tonwexp:itemtypes/spear.json"
+  }
+]

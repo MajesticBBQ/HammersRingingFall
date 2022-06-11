@@ -1,12 +1,52 @@
+1.2.2
+	- Fixed Stone Quarry Tools Compat
+	- Correct Recipe Output for hinges
+	- Condensed hinges into two recipes, flanges and pins
 
-1.2.2-rc.2 - Planned Features
-	- (UF) Add cordage recipe, set to not activate if Primitive Survival is installed.
-	- (UF) Add cordage to stone tool recipes, adjust to use PS cordage if it's available.
+1.2.1 (Stable Release)
+	- Removed Crate with Label recipe
+	- Corrected Large Trough Recipe
+	- Corrected Small Trough Recipe
+	- Fixed Stone Quarry Compat
 
-1.2.1-dev.1 - Current Release
+1.2.1-rc.1
+	- Refactored patch files
+		- Patches moved out of game domain
+		- game: prefix added to all vanilla references
+		- hrf_ added to precede all patches
+	- Refactor hinge recipes
+		- hingeflangebottom recipes now produce hingeflange-{metal}
+		- hingeflangetop recipe removed
+		- hinge recipe now accepts any hingeflange*-{metal} as top/bottom hinges.
+	- Updated smithing recipes to drop correct number of items and eliminate traps
+		- Nail recipes now drop 20 and 36
+		- Rivet recipes now drop 16 and 28 respectively
+		- Hinge pin recipe now drops 20 hinge pins
+	- Update stonequarry recipes
+	- Update AniMiTech recipes (tonwexp) to correct recipe requirements.
+	- Add breakdown recipes with chisel for spearheads and arrowheads to metal bits
+	- Crucible Capacity Functionality integrated, set to default two ingots per crucible. (10 per space) - By Craluminum2413
+	- Remove rowboat compatibility for later assessment
+
+
+1.1.2-dev.1 - Current Release
 	- Added missing comma to itemtypes file
 	- Adjusted AdvancedSmithing recipes
+	- Updated to add compatibility with Ancient Military Technology
+	- Updated to be compatible with From Golden Combs
+	- Updated to be compatible with Lichen
+	- Updated to be compatible with Necessaries
+	- Updated to be compatible with Stonequarry
+	- Updated to be compatible with Tradeomat
+	- Updated to be compatible with workbenchextended
+	- Updated to be compatible with xrowboat
+	- A lot of bug fixes.
+	- Changed recipes to meet styleguide (basic recipes take No more than half the voxels, advanced can take all)
+	- Fixed metal spear recipe to not require metal spears (ooops)
+	- Added leather, nail, and a metal plate to the extended workbench.
+	- Doubled output of nail/rivet recipes
 	
+
 1.1.2-rc.1
 	- Fix missing tool haft in prospecting pick recipe.
 	- Incorporated //Courtesy of OpPointBaker into all smithing recipes they made
@@ -25,8 +65,8 @@
 	- Introduced tool haft to replace sticks in metal tools
 
 0.1.0-dev.2
-	- Added itemtype for metal bands and rivets
-	- Added shapes for metal bands and rivets
+	- Added itemtype for metal bands and rivet
+	- Added shapes for metal bands and rivet
 	- Added 9 rivet recipe
 	- Added 13 rivet recipe
 	- Added 4 metal band recipe

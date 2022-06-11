@@ -1,0 +1,15 @@
+{
+  "item-rivet-*": "Заклепка",
+  "item-nail-*": "Гвоздь",
+  "item-metalband-*": "Металлическая полоса",
+  "item-hingeflangebottom-*": "Нижняя половина петли",
+  "item-hingeflangetop-*": "Верхняя половина петли",
+  "item-pin-*": "Штырь",
+  "item-hinge-*": "Петля",
+  "item-toolhaft-short-finished": "Короткая рукоятка",
+  "item-toolhaft-medium-finished": "Средняя рукоятка",
+  "item-toolhaft-long-finished": "Длинная рукоятка",
+  "item-toolhaft-short-oiled": "Пропитанная короткая рукоятка",
+  "item-toolhaft-medium-oiled": "Пропитанная средняя рукоятка",
+  "item-toolhaft-long-oiled": "Пропитанная длинная рукоятка"
+}

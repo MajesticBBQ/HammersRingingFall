@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "S_K,RTR,T_T",
+    "file": "necessaries:recipes/grid/branchcutter.json",
+    "dependson": [{"modid": "necessaries"}]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 1},
+    "file": "necessaries:recipes/grid/branchcutter.json",
+    "dependson": [{"modid": "necessaries"}]
+  }
+]

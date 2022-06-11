@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "L__,HHH,WNW",
+    "file": "game:recipes/grid/bed.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 10},
+    "file": "game:recipes/grid/bed.json"
+  }
+]

@@ -1,43 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>9</LangVersion>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1164\Lib\0Harmony.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1164\Lib\Newtonsoft.Json.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="VintagestoryAPI">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1164\VintagestoryAPI.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="VintagestoryLib">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1164\VintagestoryLib.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="VSBuildLib">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1164\VSBuildLib.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="VSCreativeMod">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1164\Mods\VSCreativeMod.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="VSEssentials">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1164\Mods\VSEssentials.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
-    <Reference Include="VSSurvivalMod">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1164\Mods\VSSurvivalMod.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
+    <Compile Remove="EntityDrifter.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -56,175 +29,10 @@
     <None Update="assets\fromgoldencombs\patches\recipes\grid\langstrothsuper.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\game\patches\recipes\grid\armorstand.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\barrel.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\bed.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\chair.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\chest-labeled.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\chest.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\chute.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\condenser.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\crate-labeled.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\crate.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\displaycase.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\door.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\fruitpress.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\helvehammer.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\henbox.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\hopper.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\irondoor.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\lantern.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\mechpowerblocks-pulverizer.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\mechpowerblocks.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\metalblock.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\planks.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\plankslab.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\plankstairs.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\roofing.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\shelf.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\sign.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\signpost.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\table.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\axe.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\hackingspear.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\hammer.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\hoe.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\knife.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\longblade.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\pickaxe.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\propick.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\saw.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\scythe.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\shield.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\shovel.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\tool\spear.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\trapdoor.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\trough-large.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\trough-small.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\verticalboiler.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\woodbucket.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\grid\woodenfencegate.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\smithing\14arrowhead.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\smithing\2chisels.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\smithing\2knives.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\smithing\2padlocks.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\smithing\2prospectingpicks.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\smithing\2sawblades.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\smithing\2scytheblades.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="assets\game\patches\recipes\smithing\3hoes.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="assets\hammersringingfall\itemtypes\resource\hinge.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\itemtypes\resource\hingeflange.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\itemtypes\resource\hingeflangebottom.json">
@@ -251,13 +59,178 @@
     <None Update="assets\hammersringingfall\lang\en.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\hammersringingfall\lang\ru.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\blocktypes\hrf_cruciblecapacity.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_armorstand.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_barrel.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_bed.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_chair.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_chest-labeled.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_chest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_chute.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_condenser.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_crate.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_displaycase.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_door.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_fruitpress.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_helvehammer.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_henbox.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_hopper.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_irondoor.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_lantern.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_mechpowerblocks-pulverizer.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_mechpowerblocks.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_metalblock.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_planks.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_plankslab.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_plankstairs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_roofing.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_shelf.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_sign.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_signpost.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_table.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_trapdoor.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_trough-small.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_trough-large.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_verticalboiler.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_woodbucket.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\hrf_woodenfencegate.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_axe.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_hackingspear.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_hammer.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_hoe.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_knife.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_longblade.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_pickaxe.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_propick.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_saw.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_scythe.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_shield.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_shovel.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\patches\recipes\grid\tool\hrf_spear.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\hammersringingfall\recipes\grid\copperhammer.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\recipes\grid\copperpickaxe.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\hammersringingfall\recipes\grid\flamberg.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\grid\gross.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\hammersringingfall\recipes\grid\hinge.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\grid\katzbalger.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\grid\mace.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\grid\metalbits.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\grid\metalhoe.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\recipes\grid\metalshovel.json">
@@ -266,43 +239,58 @@
     <None Update="assets\hammersringingfall\recipes\grid\metalspear.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\grid\metalhoe.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="assets\hammersringingfall\recipes\grid\toolhaft.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\15rivets.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\14arrowhead.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\18nails.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\16rivets.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\5hingeflangebottom.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\20hingepin.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\5hingeflangetop.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\20nails.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\20rivets.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\2chisels.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\2knives.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\recipes\smithing\2metalband.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\4metalband.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\2padlocks.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\5hingepin.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\2prospectingpicks.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\9nails.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\2sawblades.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\10rivets.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\2scytheblades.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\36nails.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\recipes\smithing\3hingeflangebottom.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="assets\hammersringingfall\recipes\smithing\3hingeflangetop.json">
+    <None Update="assets\hammersringingfall\recipes\smithing\3hoes.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\4metalband.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\hammersringingfall\recipes\smithing\5hingeflangebottom.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\hammersringingfall\shapes\item\hinge.json">
@@ -335,6 +323,87 @@
     <None Update="assets\hammersringingfall\shapes\item\shorthaft.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\lichen\patches\grid\hrf_cresentchair.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\lichen\patches\grid\hrf_deer-mounts.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\lichen\patches\grid\hrf_gemsmount.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\lichen\patches\grid\hrf_shojiscreens.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\necessaries\patches\grid\hrf_branchcutter.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\necessaries\patches\grid\hrf_mailbox.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\stonequarry\patches\grid\hrf_rubblestorage.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\stonequarry\patches\grid\tool\hrf_finishingchisel.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\stonequarry\patches\grid\tool\hrf_rubblehammer.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\stonequarry\patches\grid\tool\hrf_wedgechisel.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\itemtypes\hrf_spear.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_axe.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_carsword.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_flamberg.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_gladius.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_gross.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_katana.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_katzbalger.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_mace.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_pilum.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_saber.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_scutum.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_seax.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tonwexp\patches\recipes\grid\hrf_spear.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tradeomat\patches\grid\hrf_tomat-crate.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\tradeomat\patches\grid\hrf_tomat-tall.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\workbenchextended\patches\grid\hrf_extendedworkbench.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="changelog.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -344,6 +413,53 @@
     <None Update="modinfo.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="assets\hammersringingfall\patches\entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Lib\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="cairo-sharp">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Lib\cairo-sharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Lib\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Lib\protobuf-net.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VintagestoryLib">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\VintagestoryLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VSBuildLib">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\VSBuildLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VSCreativeMod">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Mods\VSCreativeMod.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VSEssentials">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Mods\VSEssentials.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VSSurvivalMod">
+      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Mods\VSSurvivalMod.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
 </Project>
