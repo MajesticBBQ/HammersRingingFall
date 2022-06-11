@@ -29,7 +29,7 @@
     },
     {
       "op":"replace",
-      "path":"width",
+      "path":"/width",
       "value": 3,
       "file": "stonequarry:recipes/grid/tool/rubblehammer.json"
     }

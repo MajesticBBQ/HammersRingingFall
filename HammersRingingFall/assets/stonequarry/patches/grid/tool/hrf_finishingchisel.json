@@ -18,13 +18,13 @@
   {
     "op": "replace",
     "path": "/ingredients/S",
-    "value": { "type": "item", "code": "hammersringingfall:toolhaft-small-finished"},
+    "value": { "type": "item", "code": "hammersringingfall:toolhaft-short-finished"},
     "file": "stonequarry:recipes/grid/tool/finishingchisel.json"
   },
   {
     "op":"replace",
-    "path":"width",
-    "value": 2,
+    "path":"/width",
+    "value": 3,
     "file": "stonequarry:recipes/grid/tool/finishingchisel.json"
   }
 ]

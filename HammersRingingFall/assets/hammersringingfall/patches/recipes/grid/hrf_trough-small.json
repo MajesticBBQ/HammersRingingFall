@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/ingredientPattern",
-    "value": "PNP,PPP",
+    "value": "PNP,_P_",
     "file": "game:recipes/grid/trough-small.json"
   },
   {

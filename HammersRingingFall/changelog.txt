@@ -1,3 +1,14 @@
+1.2.2
+	- Fixed Stone Quarry Tools Compat
+	- Correct Recipe Output for hinges
+	- Condensed hinges into two recipes, flanges and pins
+
+1.2.1 (Stable Release)
+	- Removed Crate with Label recipe
+	- Corrected Large Trough Recipe
+	- Corrected Small Trough Recipe
+	- Fixed Stone Quarry Compat
+
 1.2.1-rc.1
 	- Refactored patch files
 		- Patches moved out of game domain

@@ -6,7 +6,7 @@
     {
       "op": "replace",
       "path": "/ingredientPattern",
-      "value": "TR_,S__",
+      "value": "TR,S_",
       "file": "stonequarry:recipes/grid/tool/wedgechisel.json"
     },
     {
@@ -18,12 +18,12 @@
     {
       "op": "replace",
       "path": "/ingredients/S",
-      "value": { "type": "item", "code": "hammersringingfall:toolhaft-small-finished"},
+      "value": { "type": "item", "code": "hammersringingfall:toolhaft-short-finished"},
       "file": "stonequarry:recipes/grid/tool/wedgechisel.json"
     },
     {
       "op":"replace",
-      "path":"width",
+      "path":"/width",
       "value": 2,
       "file": "stonequarry:recipes/grid/tool/wedgechisel.json"
     }

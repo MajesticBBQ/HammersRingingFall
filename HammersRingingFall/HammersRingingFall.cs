@@ -1,7 +1,4 @@
-﻿using HammersRingingFall;
-using System;
-using Vintagestory.API.Common;
-using Vintagestory.API.Common.Entities;
+﻿using Vintagestory.API.Common;
 
 namespace HammersRingingFall
 {
@@ -18,27 +15,41 @@ namespace HammersRingingFall
 
             try
             {
-                HammersRingingFallConfig FromDisk;
-                if ((FromDisk = api.LoadModConfig<HammersRingingFallConfig>("HammersRingingFallConfig.json")) == null)
-                {
-                    api.StoreModConfig<HammersRingingFallConfig>(HammersRingingFallConfig.Loaded, "HammersRingingFallConfig.json");
-                }
-                else HammersRingingFallConfig.Loaded = FromDisk;
+                var Config = api.LoadModConfig<HammersRingingFallConfig>("hammersringingfall.json");
+                api.Logger.Notification("HRF Mod Config Succcessfully Loaded.");
+                HammersRingingFallConfig.Current = Config;
             }
             catch
             {
-                api.StoreModConfig<HammersRingingFallConfig>(HammersRingingFallConfig.Loaded, "HammersRingingFallConfig.json");
+                api.Logger.Notification("HRF Mod Config Not Specified. Falling back to default settings");
+                HammersRingingFallConfig.Current = HammersRingingFallConfig.GetDefault();
             }
-
-            api.World.Config.SetInt($"CrucibleCapacityPerSlot", HammersRingingFallConfig.Loaded.CrucibleCapacityPerSlot);
+            finally
+            {
+                if (HammersRingingFallConfig.Current.CrucibleCapacityPerSlot <= 0)
+                {
+                    HammersRingingFallConfig.Current.CrucibleCapacityPerSlot = 10;
+                }
+                api.World.Config.SetInt("CrucibleCapacityPerSlot", HammersRingingFallConfig.Current.CrucibleCapacityPerSlot);
+                api.StoreModConfig(HammersRingingFallConfig.Current, "hammersringingfall.json");
+            }
         }
 
-        public class HammersRingingFallConfig : ModSystem
+        public class HammersRingingFallConfig
         {
-            public static HammersRingingFallConfig Loaded { get; set; } = new HammersRingingFallConfig();
             public int CrucibleCapacityPerSlot { get; set; } = 10;
 
+            public HammersRingingFallConfig() { }
 
+            public static HammersRingingFallConfig Current { get; set; }
+
+            public static HammersRingingFallConfig GetDefault() {
+
+                HammersRingingFallConfig defaultConfig = new();
+                defaultConfig.CrucibleCapacityPerSlot = 10;
+                return defaultConfig;
+            }
+            
         }
         
     }

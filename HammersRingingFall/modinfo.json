@@ -2,9 +2,9 @@
   "type": "code",
   "modid": "hammersringingfall",
   "name": "Hammers Ringing Fall",
-  "authors": [ "Vinter Nacht","Percival", "Raccoon"],
+  "authors": [ "Vinter Nacht","Percival", "Raccoon", "WesCookie"],
   "description": "With measured beat and slow, Like a sexton ringing the village bell - Henry Wadsworh Longfellow",
-  "version": "1.2.1-rc.1",
+  "version": "1.2.1",
   "dependencies": {
     "game": ""
   }

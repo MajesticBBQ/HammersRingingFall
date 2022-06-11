@@ -3,7 +3,7 @@
     "op": "replace",
     "path": "/ingredientPattern",
     "value": "PN,PP",
-    "file": "game:recipes/grid/plankstairs.json"
+    "file": "game:recipes/grid/stairs/plankstairs.json"
   },
   {
     "op": "add",
