@@ -1,0 +1,23 @@
+[
+  {
+  "op": "replace",
+  "path": "/ingredientPattern",
+  "value": "BNB,CBC",
+  "file": "tradeomat:recipes/grid/tomat-crate.json",
+  "dependson": [{"modid": "tradeomat"}]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+    "file": "tradeomat:recipes/grid/tomat-crate.json",
+    "dependson": [{"modid": "tradeomat"}]
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 3,
+    "file": "tradeomat:recipes/grid/tomat-crate.json",
+    "dependson": [{"modid": "tradeomat"}]
+  }
+]

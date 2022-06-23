@@ -1,0 +1,23 @@
+//Fixed by WesCookie
+//Fixed values for toolhafts to use finished instead of oiled toolhafts
+
+[
+  {
+    "op": "replace",
+    "path": "/0",
+    "value": {
+    "ingredientPattern": "_L_,_H_,MGR",
+    "ingredients": { 
+        "L": { "type": "item", "code": "tonwexp:katanablade-*", "name": "steel", "allowedVariants": ["iron", "meteoriciron", "steel"]},
+        "H": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze"]},
+        "G": {"type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},     
+        "R": {"type": "item", "code": "hammersringingfall:rivet-*"},
+        "M": {"type": "item", "code": "hammersringingfall:metalband-*"}
+        },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "item", "code": "tonwexp:katana-{steel}"}
+    },
+    "file": "tonwexp:recipes/grid/katana.json"
+  }
+]

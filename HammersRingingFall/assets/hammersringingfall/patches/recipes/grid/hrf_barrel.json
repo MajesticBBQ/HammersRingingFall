@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "SPS,BPB,SPS",
+    "file": "game:recipes/grid/barrel.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+    "file": "game:recipes/grid/barrel.json"
+  }
+]

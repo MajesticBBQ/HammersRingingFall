@@ -1,0 +1,41 @@
+//Fixed by WesCookie
+//Fixed values for toolhafts to use finished instead of oiled toolhafts
+
+[
+  {
+    "op": "replace",
+    "path": "/0/ingredientPattern",
+    "value": "_C_,BHR",
+    "file": "tonwexp:recipes/grid/pilum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/width",
+    "value": "3",
+    "file": "tonwexp:recipes/grid/pilum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/height",
+    "value": "2",
+    "file": "tonwexp:recipes/grid/pilum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/ingredients/H",
+    "value": {"type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},
+    "file": "tonwexp:recipes/grid/pilum.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/R",
+    "value": {"type": "item", "code": "hammersringingfall:rivet-*"},
+    "file": "tonwexp:recipes/grid/pilum.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/B",
+    "value": {"type": "item", "code": "hammersringingfall:metalband-*"},
+    "file": "tonwexp:recipes/grid/pilum.json"
+  }
+]

@@ -1,0 +1,30 @@
+//Created by WesCookie
+//Patches the recipe for finishing chisels 
+//from the Stone Quarry mod for use with 
+//Hammer's Ringing Fall mechanics
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "TR_,S__",
+    "file": "stonequarry:recipes/grid/tool/finishingchisel.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2},
+    "file": "stonequarry:recipes/grid/tool/finishingchisel.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S",
+    "value": { "type": "item", "code": "hammersringingfall:toolhaft-short-finished"},
+    "file": "stonequarry:recipes/grid/tool/finishingchisel.json"
+  },
+  {
+    "op":"replace",
+    "path":"/width",
+    "value": 3,
+    "file": "stonequarry:recipes/grid/tool/finishingchisel.json"
+  }
+]

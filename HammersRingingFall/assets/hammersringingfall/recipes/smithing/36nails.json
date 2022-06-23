@@ -1,0 +1,16 @@
+{
+    "ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal",
+    "allowedVariants": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"] },
+    "name": "36 Nails",
+    "pattern": [[
+        "#_#_#_#_#",
+        "#_#_#_#_#",
+        "_#_#_#_#_",
+        "_#_#_#_#_",
+        "#_#_#_#_#",
+        "#_#_#_#_#",
+        "_#_#_#_#_",
+        "_#_#_#_#_"
+    ]],
+    "output": { "type": "item", "code": "hammersringingfall:nail-{metal}", "stacksize": 36 }
+}

@@ -1,0 +1,16 @@
+[
+  {
+  "op": "replace",
+  "path": "/ingredientPattern",
+  "value": "NBF,BGB,BBB",
+  "file": "necessaries:recipes/grid/mailbox.json",
+  "dependson": [{"modid": "stonequarry"}]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 4},
+     "file": "necessaries:recipes/grid/mailbox.json",
+  "dependson": [{"modid": "necessaries"}]
+  }
+]

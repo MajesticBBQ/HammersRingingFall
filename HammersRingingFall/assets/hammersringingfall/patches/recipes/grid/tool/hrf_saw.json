@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "SRS,_T_",
+    "file": "game:recipes/grid/tool/saw.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S",
+    "value": { "type": "item", "code": "hammersringingfall:toolhaft-medium-finished"},
+    "file": "game:recipes/grid/tool/saw.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": { "type": "item", "code": "game:rope"},
+    "file": "game:recipes/grid/tool/saw.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 3,
+    "file": "game:recipes/grid/tool/saw.json"
+  }
+]

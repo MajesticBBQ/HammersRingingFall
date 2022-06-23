@@ -1,0 +1,32 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "TMB,MSR",
+    "file": "game:recipes/grid/tool/hackingspear.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": { "type": "item", "code": "hammersringingfall:metalband-*"},
+    "file": "game:recipes/grid/tool/hackingspear.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S",
+    "value": { "type": "item", "code": "hammersringingfall:toolhaft-long-finished"},
+    "file": "game:recipes/grid/tool/hackingspear.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": { "type": "item", "code": "hammersringingfall:rivet-*","quantity": 2},
+    "file": "game:recipes/grid/tool/hackingspear.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 3,
+    "file": "game:recipes/grid/tool/hackingspear.json"
+  }
+]

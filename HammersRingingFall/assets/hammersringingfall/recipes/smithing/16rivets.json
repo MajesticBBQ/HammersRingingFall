@@ -1,0 +1,19 @@
+{
+    "ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal",
+    "allowedVariants": ["copper", "brass", "tinbronze", "bismuthbronze", "blackbronze", "iron", "titanium", "meteoriciron", "steel"] },
+    "name": "16rivet",
+    "pattern": [[
+        "#_#_#_#_",
+        "#_#_#_#_",
+        "_#_#_#__",
+        "_#_#_#__"
+        ],
+        [
+        "#_#_#_#_",
+        "________",
+        "_#_#_#__",
+        "________"
+        ]
+    ],
+    "output": { "type": "item", "code": "hammersringingfall:rivet-{metal}", "stacksize": 16 }    
+}

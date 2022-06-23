@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "_G_,NPN",
+    "file": "game:recipes/grid/displaycase.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/N",
+    "value": { "type": "item", "code": "hammersringingfall:nail-*","quantity": 2},
+    "file": "game:recipes/grid/displaycase.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 3,
+    "file": "game:recipes/grid/displaycase.json"
+  }
+]
