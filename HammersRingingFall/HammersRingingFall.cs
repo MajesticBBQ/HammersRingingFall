@@ -16,6 +16,8 @@ namespace HammersRingingFall
             try
             {
                 var Config = api.LoadModConfig<HammersRingingFallConfig>("hammersringingfall.json");
+                if (Config is null) throw new FileNotFoundException();
+
                 api.Logger.Notification("HRF Mod Config Succcessfully Loaded.");
                 HammersRingingFallConfig.Current = Config;
             }
