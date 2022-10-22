@@ -1,3 +1,6 @@
+1.2.3
+	- Fixed current config assignment
+
 1.2.2
 	- Fixed Stone Quarry Tools Compat
 	- Correct Recipe Output for hinges
