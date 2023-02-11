@@ -1,7 +1,7 @@
 [
   {
     "op": "replace",
-    "path": "/ingredientPattern",
+    "path": "/0/ingredientPattern",
     "value": "PNP,SPS,PNP",
     "file": "lichen:recipes/grid/cresentchair.json",
     "dependson": [{"modid": "lichen"}]

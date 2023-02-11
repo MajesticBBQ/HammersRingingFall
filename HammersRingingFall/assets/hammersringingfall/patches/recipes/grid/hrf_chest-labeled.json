@@ -16,5 +16,11 @@
     "path": "/width",
     "value": 3,
     "file": "game:recipes/grid/chest-labeled.json"
+  },
+  {
+	  "op": "replace",
+	  "path": "/shapeless",
+	  "value": "false",
+	  "file": "game:recipes/grid/chest-labeled.json"
   }
 ]

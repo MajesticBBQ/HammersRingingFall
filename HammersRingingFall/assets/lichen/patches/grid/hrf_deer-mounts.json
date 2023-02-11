@@ -51,7 +51,7 @@
   {
     "op": "add",
     "path": "/2/ingredients/X",
-    "value": { "type": "item", "code": "game:plank-oak", "quantity": 3 },
+    "value": { "type": "item", "code": "game:plank-baldcypress", "quantity": 3 },
     "file": "lichen:recipes/grid/deer-mounts.json",
     "dependson": [{"modid": "lichen"}]
   },
